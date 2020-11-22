@@ -1,11 +1,18 @@
+/* eslint-disable prettier/prettier */
 import React, {Component} from 'react';
 import {Image, Text, View} from 'react-native';
 
-class FlexBoxer extends Component {
+class FlexBox extends Component {
+  constructor(props) {
+    super(props);
+    console.log('==> constructor');
+  }
   render() {
+    console.log('==> render');
     return (
       <View>
         <View
+          // eslint-disable-next-line react-native/no-inline-styles
           style={{
             flexDirection: 'row',
             backgroundColor: 'grey',
@@ -21,6 +28,8 @@ class FlexBoxer extends Component {
         </View>
         <View style={{flexDirection: 'row', justifyContent: 'space-evenly'}}>
           <Text>Kiri</Text>
+          <Text>Tengah1</Text>
+          <Text>Tengah2</Text>
           <Text>Kanan</Text>
         </View>
         <View
@@ -42,4 +51,4 @@ class FlexBoxer extends Component {
   }
 }
 
-export default FlexBoxer;
+export default FlexBox;

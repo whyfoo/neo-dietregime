@@ -4,50 +4,46 @@ import {View, Text, TextInput, Image} from 'react-native';
 const SampleComponent = () => {
   return (
     <View>
-      <View style={{width:80, height:80, backgroundColor:'pink'}}/>
+      <View style={{width: 80, height: 80, backgroundColor: 'pink'}} />
       <Text>Hello</Text>
       <Text>World</Text>
       <Hanif />
       <Gambar />
-      <TextInput style={{borderWidth: 1}}/>
+      <TextInput style={{borderWidth: 1}} />
       <Kelas />
       <Profile />
     </View>
-    );
-} 
+  );
+};
 
 const Hanif = () => {
-  return (
-    <Text>Hanif</Text>
-  );
+  return <Text>Hanif</Text>;
 };
 
 const Gambar = () => {
   return (
-    <Image 
+    <Image
       source={{uri: 'https://placeimg.com/100/100/animals'}}
       style={{width: 100, height: 100}}
     />
   );
 };
 
-class Kelas extends Component{
-  render(){
-    return (
-      <Text>Ini class ni</Text>
-    );
+class Kelas extends Component {
+  render() {
+    return <Text>Ini class ni</Text>;
   }
 }
 
-class Profile extends Component{
-  render(){
+class Profile extends Component {
+  render() {
     return (
       <View>
-        <Image 
+        <Image
           source={{uri: 'https://placeimg.com/100/100/arch'}}
-          style={{width: 100, height: 100, borderRadius:50}}
+          style={{width: 100, height: 100, borderRadius: 50}}
         />
-        <Text style={{color: "teal", fontSize: 25}}>Ini profil</Text>
+        <Text style={{color: 'teal', fontSize: 25}}>Ini profil</Text>
       </View>
     );
   }
