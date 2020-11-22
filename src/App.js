@@ -6,6 +6,8 @@ import FlexBox from './pages/FlexBox';
 import Position from './pages/Position';
 import PropsDinamis from './pages/PropsDinamis';
 import StateDinamis from './pages/StateDinamis';
+import Communication from './pages/Communication';
+import BasicJS from './pages/BasicJS';
 
 const App = () => {
   return (
@@ -16,7 +18,9 @@ const App = () => {
         {/* <FlexBox /> */}
         {/* <Position /> */}
         {/* <PropsDinamis /> */}
-        <StateDinamis />
+        {/* <StateDinamis /> */}
+        <Communication />
+        {/* <BasicJS /> */}
       </ScrollView>
     </View>
   );
