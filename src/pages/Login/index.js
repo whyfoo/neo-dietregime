@@ -8,20 +8,19 @@ import {
   Dimensions,
   TouchableOpacity,
   TouchableHighlight,
-  TextInput,
 } from 'react-native';
 
 const Login = () => {
   const win = Dimensions.get('window');
   return (
-    <View style={{backgroundColor: 'white'}}>
+    <View style={{flex: 1}}>
       <View style={{flex: 1}}>
         <Image
           source={{
             uri:
               'https://images.unsplash.com/photo-1594890716890-16b1dde476ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=924&q=80',
             width: win.width,
-            height: win.height / 2,
+            height: win.height / 2.5,
           }}
           style={{}}
         />
@@ -37,21 +36,22 @@ const Login = () => {
         <Text
           style={{
             fontSize: 23,
-            margin: 20,
-            paddingVertical: 20,
+            margin: 30,
+            paddingVertical: 25,
             justifyContent: 'center',
             textAlign: 'center',
             fontFamily: 'Quicksand',
           }}>
-          Sign in with your account.
+          Personalized meal plans to achieve your dream!
         </Text>
 
-        <TextInput style={styles.inputBox}>Username/email</TextInput>
+        <TouchableOpacity style={styles.tombolawal}>
+          <Text>Register</Text>
+        </TouchableOpacity>
 
-        <TextInput style={styles.inputBox}>Password</TextInput>
-
-        <TouchableOpacity style={styles.tombol}>
-          <Text style={{color: 'white'}}>Register</Text>
+        <TouchableOpacity
+          style={[styles.tombolawal, {backgroundColor: 'lightblue'}]}>
+          <Text>Have Account</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -69,19 +69,19 @@ const styles = StyleSheet.create({
   inputBox: {
     width: 280,
     height: 35,
-    backgroundColor: 'gray',
+    backgroundColor: 'tomato',
     borderRadius: 25,
     paddingHorizontal: 15,
-    fontSize: 13,
+    fontSize: 15,
     color: '#ffffff',
     marginVertical: 12,
   },
 
-  tombol: {
-    backgroundColor: 'teal',
-    width: '40%',
+  tombolawal: {
+    backgroundColor: 'pink',
+    width: '50%',
     paddingVertical: 10,
-    marginTop: 25,
+    marginVertical: 10,
     borderRadius: 10,
     alignItems: 'center',
   },
