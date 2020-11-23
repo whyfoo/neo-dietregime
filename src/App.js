@@ -8,7 +8,6 @@ import PropsDinamis from './pages/PropsDinamis';
 import StateDinamis from './pages/StateDinamis';
 import Communication from './pages/Communication';
 import BasicJS from './pages/BasicJS';
-import Login from './pages/Login';
 
 const App = () => {
   return (
@@ -20,9 +19,8 @@ const App = () => {
         {/* <Position /> */}
         {/* <PropsDinamis /> */}
         {/* <StateDinamis /> */}
-        {/* <Communication /> */}
+        <Communication />
         {/* <BasicJS /> */}
-        <Login />
       </ScrollView>
     </View>
   );
