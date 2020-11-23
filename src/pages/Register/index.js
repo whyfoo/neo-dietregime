@@ -10,13 +10,14 @@ import {
   TouchableHighlight,
   TextInput,
 } from 'react-native';
+import Logo from '../../assets/img/logo.png';
 
-const Login = () => {
+const Register = () => {
   const win = Dimensions.get('window');
   return (
     <View style={{backgroundColor: 'white'}}>
       <View style={{flex: 1}}>
-        <Image
+        {/* <Image
           source={{
             uri:
               'https://images.unsplash.com/photo-1594890716890-16b1dde476ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=924&q=80',
@@ -24,6 +25,16 @@ const Login = () => {
             height: win.height / 2,
           }}
           style={{}}
+        /> */}
+        <Image
+          source={Logo}
+          style={{
+            marginVertical: 50,
+            padding: 10,
+            width: 100,
+            height: 80,
+            alignSelf: 'center',
+          }}
         />
       </View>
 
@@ -37,20 +48,23 @@ const Login = () => {
         <Text
           style={{
             fontSize: 23,
-            margin: 20,
+            marginHorizontal: 20,
             paddingVertical: 20,
             justifyContent: 'center',
             textAlign: 'center',
             fontFamily: 'Quicksand',
           }}>
-          Sign in with your account.
+          Sign In
         </Text>
 
-        <TextInput style={styles.inputBox}>Username/email</TextInput>
+        <TextInput style={[styles.inputBox, {marginVertical: 20}]}>
+          Username/email
+        </TextInput>
 
         <TextInput style={styles.inputBox}>Password</TextInput>
 
-        <TouchableOpacity style={styles.tombol}>
+        <TouchableOpacity
+          style={[styles.tombolawal, {backgroundColor: 'teal'}]}>
           <Text style={{color: 'white'}}>Register</Text>
         </TouchableOpacity>
       </View>
@@ -58,7 +72,7 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;
 
 const styles = StyleSheet.create({
   container: {
@@ -77,11 +91,11 @@ const styles = StyleSheet.create({
     marginVertical: 12,
   },
 
-  tombol: {
-    backgroundColor: 'teal',
-    width: '40%',
+  tombolawal: {
+    backgroundColor: 'green',
+    width: '50%',
     paddingVertical: 10,
-    marginTop: 25,
+    marginVertical: 50,
     borderRadius: 10,
     alignItems: 'center',
   },

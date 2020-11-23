@@ -8,6 +8,8 @@ import PropsDinamis from './pages/PropsDinamis';
 import StateDinamis from './pages/StateDinamis';
 import Communication from './pages/Communication';
 import BasicJS from './pages/BasicJS';
+import Begin from './pages/Begin';
+import Register from './pages/Register';
 import Login from './pages/Login';
 
 const App = () => {
@@ -22,7 +24,7 @@ const App = () => {
         {/* <StateDinamis /> */}
         {/* <Communication /> */}
         {/* <BasicJS /> */}
-        <Login />
+        <Begin />
       </ScrollView>
     </View>
   );
