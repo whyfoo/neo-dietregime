@@ -7,9 +7,6 @@ const Communication = () => {
   const [totalProduct, setTotalProduct] = useState(0);
   return (
     <View style={styles.container}>
-      <Text style={{textAlign: 'center', margin: 10}}>
-        Materi Komunikasi antar Komponen
-      </Text>
       <Cart quantity={totalProduct} />
       <Product onButtonPress={() => setTotalProduct(totalProduct + 1)} />
     </View>
