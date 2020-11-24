@@ -10,7 +10,7 @@ import {
   TouchableHighlight,
 } from 'react-native';
 
-const Begin = () => {
+const Begin = ({navigation}) => {
   const win = Dimensions.get('window');
   return (
     <View style={styles.container}>
@@ -50,7 +50,8 @@ const Begin = () => {
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={[styles.tombolawal, {backgroundColor: 'lightblue'}]}>
+          style={[styles.tombolawal, {backgroundColor: 'lightblue'}]}
+          onPress={() => navigation.navigate('Login')}>
           <Text>Have Account</Text>
         </TouchableOpacity>
       </View>

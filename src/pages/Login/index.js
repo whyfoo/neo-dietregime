@@ -11,7 +11,7 @@ import {
   TextInput,
 } from 'react-native';
 
-const Login = () => {
+const Login = ({navigation}) => {
   const win = Dimensions.get('window');
   return (
     <View style={styles.container}>
@@ -37,7 +37,7 @@ const Login = () => {
         <Text
           style={{
             fontSize: 23,
-            margin: 15,
+            marginTop: 15,
             paddingVertical: 20,
             justifyContent: 'center',
             textAlign: 'center',
@@ -51,7 +51,11 @@ const Login = () => {
         <TextInput style={styles.inputBox}>Password</TextInput>
 
         <TouchableOpacity style={styles.tombol}>
-          <Text style={{color: 'white'}}>Register</Text>
+          <Text style={{color: 'white'}}>Login</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={{marginTop: 10}} onPress={() => navigation.goBack()}>
+          <Text style={{color: 'tomato'}}>Back</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -78,10 +82,10 @@ const styles = StyleSheet.create({
   },
 
   tombol: {
-    backgroundColor: 'teal',
-    width: '40%',
+    backgroundColor: 'mediumseagreen',
+    width: '50%',
     paddingVertical: 10,
-    marginTop: 25,
+    marginVertical: 10,
     borderRadius: 10,
     alignItems: 'center',
   },
