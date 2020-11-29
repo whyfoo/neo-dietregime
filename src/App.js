@@ -10,6 +10,7 @@ import Communication from './pages/Communication';
 import BasicJS from './pages/BasicJS';
 import Begin from './pages/Begin';
 import Login from './pages/Login';
+import Main from './pages/Main';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
@@ -36,6 +37,7 @@ const App = () => {
       <Stack.Navigator headerMode ="none" initialRouteName="Begin">
         <Stack.Screen name="Begin" component={Begin} />
         <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Main" component={Main} />
         {/* <Stack.Screen name="Info" component={Info} /> */}
       </Stack.Navigator>
     </NavigationContainer>

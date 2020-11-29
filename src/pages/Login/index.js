@@ -50,7 +50,7 @@ const Login = ({navigation}) => {
 
         <TextInput style={styles.inputBox}>Password</TextInput>
 
-        <TouchableOpacity style={styles.tombol}>
+        <TouchableOpacity style={styles.tombol} onPress={() => navigation.navigate('Main')}>
           <Text style={{color: 'white'}}>Login</Text>
         </TouchableOpacity>
 
