@@ -8,57 +8,69 @@ import {
   Dimensions,
   TouchableOpacity,
   TouchableHighlight,
+  TouchableWithoutFeedback,
+  Keyboard,
   TextInput,
 } from 'react-native';
 
 const Login = ({navigation}) => {
   const win = Dimensions.get('window');
   return (
-    <View style={styles.container}>
-      <View style={{flex: 1}}>
-        <Image
-          source={{
-            uri:
-              'https://images.unsplash.com/photo-1594890716890-16b1dde476ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=924&q=80',
-            width: "100%",
-            height: "100%",
-          }}
-          style={{}}
-        />
-      </View>
+    <TouchableWithoutFeedback onPress={ () => {
+      Keyboard.dismiss();
+    }}>
+      <View style={styles.container}>
+        <View style={{flex: 1}}>
+          <Image
+            source={{
+              uri:
+                'https://images.unsplash.com/photo-1594890716890-16b1dde476ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=924&q=80',
+              width: "100%",
+              height: "100%",
+            }}
+            style={{}}
+          />
+        </View>
 
-      <View
-        style={{
-          backgroundColor: 'white',
-          flex: 1,
-          flexDirection: 'column',
-          alignItems: 'center',
-        }}>
-        <Text
+        <View
           style={{
-            fontSize: 23,
-            marginTop: 15,
-            paddingVertical: 20,
-            justifyContent: 'center',
-            textAlign: 'center',
-            fontFamily: 'Quicksand',
+            backgroundColor: 'white',
+            flex: 1,
+            flexDirection: 'column',
+            alignItems: 'center',
           }}>
-          Sign in with your account.
-        </Text>
+          <Text
+            style={{
+              fontSize: 23,
+              marginTop: 15,
+              paddingVertical: 20,
+              justifyContent: 'center',
+              textAlign: 'center',
+              fontFamily: 'Quicksand',
+            }}>
+            Sign in with your account.
+          </Text>
 
-        <TextInput style={styles.inputBox}>Username/email</TextInput>
+          <TextInput 
+          style={styles.inputBox} 
+          placeholder = 'Username/Email' 
+          placeholderTextColor = 'white'/>
 
-        <TextInput style={styles.inputBox}>Password</TextInput>
+          <TextInput 
+          style={styles.inputBox} 
+          placeholder = 'Password' 
+          placeholderTextColor = 'white' />
 
-        <TouchableOpacity style={styles.tombol} onPress={() => navigation.navigate('Main')}>
-          <Text style={{color: 'white'}}>Login</Text>
-        </TouchableOpacity>
+          <TouchableOpacity style={styles.tombol} onPress={() => navigation.navigate('Main')}>
+            <Text style={{color: 'white'}}>Login</Text>
+          </TouchableOpacity>
 
-        <TouchableOpacity style={{marginTop: 10}} onPress={() => navigation.goBack()}>
-          <Text style={{color: 'tomato'}}>Back</Text>
-        </TouchableOpacity>
+          <TouchableOpacity style={{marginTop: 10}} onPress={() => navigation.goBack()}>
+            <Text style={{color: 'tomato'}}>Back</Text>
+          </TouchableOpacity>
+        </View>
       </View>
-    </View>
+    </TouchableWithoutFeedback>
   );
 };
 
