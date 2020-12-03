@@ -163,7 +163,7 @@ const Main = ({navigation}) => {
 {/*Main Section End ---------------------------------------------------*/}
 
 {/*Footer Section Begin -----------------------------------------------*/}
-      <View 
+      {/* <View 
       style={{
         flex: 1.5, 
         backgroundColor: '#EDEDED', 
@@ -209,13 +209,11 @@ const Main = ({navigation}) => {
               }} /> 
           </View>
         </TouchableOpacity>
-      </View>
+      </View> */}
 {/*Footer Section End ---------------------------------------------------*/}
 
     </View>
-  )
-
-}
+  )}
 
 const styles = StyleSheet.create({
   footerButton: {
