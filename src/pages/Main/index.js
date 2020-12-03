@@ -11,6 +11,7 @@ import {
   FlatList
 } from 'react-native';
 import { startClock } from 'react-native-reanimated';
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import lines from '../../assets/icons/threeLine.png';
 import logo from '../../assets/icons/logo.png';
 import magnify from '../../assets/icons/magnify.png';
@@ -25,6 +26,7 @@ const Main = ({navigation}) => {
   const [isHome, setHome] = useState(true);
   const [isSearch, setSearch] = useState(false);
   const [isProfile, setProfile] = useState(false);
+  const Tab = createMaterialTopTabNavigator();
   const changeTab = (param) => {
     if (param == 'home'){
       setHome(true);
@@ -94,7 +96,7 @@ const Main = ({navigation}) => {
 
       <View 
       style={{
-        flex:3, 
+        flex:2, 
         flexDirection: 'row'
         }}>
         <View 
@@ -121,8 +123,18 @@ const Main = ({navigation}) => {
         </View>
         
       </View>
-
-      <View 
+      
+      <View style={{flex:6,}}> 
+        <Tab.Navigator 
+        tabBarOptions = {{
+          indicatorStyle: {backgroundColor: '#06BB9A'}
+        }} >
+          <Tab.Screen name="Breakfast" component = {Breakfast}/>
+          <Tab.Screen name="Lunch" component = {Breakfast} />
+          <Tab.Screen name="Dinner" component={Breakfast} />
+        </Tab.Navigator>
+      </View>
+      {/* <View 
       style={{
         flex:1, 
         flexDirection:'row', 
@@ -147,19 +159,10 @@ const Main = ({navigation}) => {
         </TouchableOpacity>
 
         
-      </View>
+      </View> */}
 
-      <View style={{flex:6,}}>
-        <Text style={{textAlign: 'center', margin: 20}}>Our Recommendation for: Breakfast</Text>
-        <Recommend />
-        <Text style={{textAlign: 'center', margin: 20}}>Alternatives</Text> 
-        <ScrollView alwaysBounceVertical='true'>
-          <Recommend />
-          <Recommend />
-          <Recommend />
-          <Recommend />
-        </ScrollView> 
-      </View>
+
+
 {/*Main Section End ---------------------------------------------------*/}
 
 {/*Footer Section Begin -----------------------------------------------*/}
@@ -214,6 +217,23 @@ const Main = ({navigation}) => {
 
     </View>
   )}
+
+const Breakfast= () => {
+  return (
+    <View >
+    <Text style={{textAlign: 'center', margin: 20}}>Our Recommendation for: Breakfast</Text>
+        <Recommend />
+        <Text style={{textAlign: 'center', margin: 20}}>Alternatives</Text> 
+        <ScrollView alwaysBounceVertical='true'>
+          <Recommend />
+          <Recommend />
+          <Recommend />
+          <Recommend />
+        </ScrollView> 
+    </View>
+  )
+}
+
 
 const styles = StyleSheet.create({
   footerButton: {
