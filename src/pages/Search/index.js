@@ -1,15 +1,9 @@
-import React from 'react';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image, ScrollView } from 'react-native';
-import lines from '../../assets/icons/threeLine.png';
-import logo from '../../assets/icons/logo.png';
-import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-import Recommend from '../../components/Recommend';
-
-const Tab = createMaterialTopTabNavigator();
+import React from 'react'
+import { StyleSheet, Text, View, InputBox } from 'react-native'
 
 const Search = () => {
     return (
-    <View style = {{flex: 1, backgroundColor: 'white'}}>
+    <View style = {{flex: 1}}>
         <View 
         style={{
           flex: 1.5, 
@@ -50,51 +44,15 @@ const Search = () => {
         </View>
       </View>
 
-      <View style={{flex:1, backgroundColor: '#fcfcfc', alignItems: 'center', padding: 15}}>
-        <TextInput 
-          style={styles.inputBox} 
-          placeholder = 'Search Here' 
-          placeholderTextColor = '#5b5b5b'/>
-        <Text style={{marginVertical: 2}}>Search Result for ""</Text>
-      </View>
+        <View style = {{flex: 1, padding: 20}}>
+            <InputBox key="Search here" style={{}}/>
 
-      <View style={{flex: 6}}>
-        <Tab.Navigator tabBarOptions = {{
-          indicatorStyle: {backgroundColor: '#06BB9A'}
-        }}>
-            <Tab.Screen name="All" component={Result} />
-            <Tab.Screen name="Breakfast" component={Result} />
-            <Tab.Screen name="Lunch" component={Result} />
-            <Tab.Screen name="Dinner" component={Result} />
-        </Tab.Navigator>
-      </View>
+        </View>
+
     </View>
     )
 }
 
 export default Search;
 
-const Result = () => {
-    return (
-        <ScrollView>
-            <Recommend style={{marginVertical: 15}}/>
-            <Recommend style={{marginVertical: 15}}/>
-            <Recommend style={{marginVertical: 15}}/>
-            <Recommend style={{marginVertical: 15}}/>
-            <Recommend style={{marginVertical: 15}}/>
-            <Recommend style={{marginVertical: 15}}/>
-        </ScrollView>
-    )}
-
-const styles = StyleSheet.create({
-    inputBox: {
-        width: 280,
-        height: 35,
-        backgroundColor: '#c0c0c0',
-        borderRadius: 25,
-        paddingHorizontal: 15,
-        fontSize: 13,
-        color: '#5b5b5b',
-        marginVertical: 12,
-      },
-})
+const styles = StyleSheet.create({})

@@ -13,11 +13,10 @@ const Recommend = () => {
             flexDirection: "row",
             justifyContent: "space-between",
             alignItems: "center",
-            borderWidth: 0.5
             }}>
 
             <View style={{flexDirection: "row", alignItems: "center"}}>
-                <Image source={moon} style={{width:50, height:50, borderRadius: 5}} />
+                <Image source={moon} style={{width:60, height:60, borderRadius: 5}} />
                 <Text style={{marginLeft: '10%', fontSize: 18}}>Fried Moon</Text>
                 <Text style={{marginLeft: '8%', fontSize: 14}}>500 cal</Text>
             </View>

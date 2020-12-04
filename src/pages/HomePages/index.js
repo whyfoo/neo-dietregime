@@ -1,12 +1,10 @@
 import * as React from 'react';
-import { Text, View, Image } from 'react-native';
+import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import Main from '../Main';
-import Profile from '../Profile';
-import Search from '../Search';
-import Magnify from '../../assets/icons/magnify.png';
+import ProfileContent from '../ProfileContent';
 
 function HomeScreen() {
   return (
@@ -23,9 +21,9 @@ export default function HomePages() {
       <Tab.Navigator initialRouteName="Main" barStyle = {{
           backgroundColor: '#EDEDED',
       }}>
-        <Tab.Screen name="Search" component={Search} />
+        {/* <Tab.Screen name="Search" component={Search} /> */}
         <Tab.Screen name="Main" component={Main}/>
-        <Tab.Screen name="Profile" component={Profile} />
+        <Tab.Screen name="Settings" component={ProfileContent} />
       </Tab.Navigator>
   );
 }
