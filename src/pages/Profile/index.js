@@ -1,13 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image, ScrollView, Button } from 'react-native';
 import lines from '../../assets/icons/threeLine.png';
 import logo from '../../assets/icons/logo.png';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import Recommend from '../../components/Recommend';
 
-const Tab = createMaterialTopTabNavigator();
-
-const Search = () => {
+const Profile = () => {
     return (
     <View style = {{flex: 1, backgroundColor: 'white'}}>
         <View 
@@ -50,29 +48,16 @@ const Search = () => {
         </View>
       </View>
 
-      <View style={{flex:1, backgroundColor: '#fcfcfc', alignItems: 'center', padding: 15}}>
-        <TextInput 
-          style={styles.inputBox} 
-          placeholder = 'Search Here' 
-          placeholderTextColor = '#5b5b5b'/>
-        <Text style={{marginVertical: 2}}>Search Result for ""</Text>
-      </View>
-
-      <View style={{flex: 6}}>
-        <Tab.Navigator tabBarOptions = {{
-          indicatorStyle: {backgroundColor: '#06BB9A'}
-        }}>
-            <Tab.Screen name="All" component={Result} />
-            <Tab.Screen name="Breakfast" component={Result} />
-            <Tab.Screen name="Lunch" component={Result} />
-            <Tab.Screen name="Dinner" component={Result} />
-        </Tab.Navigator>
+      <View style={{flex: 8, padding: 20, alignItems: 'center'}}>
+        <Image source={{uri: 'https://picsum.photos/75'}} style={{width: 75, height: 75, borderRadius: 50}}/>
+        <Text style={{margin: 20}}>Fullname's Profile Preference</Text>
+        <Button title='Save'/>
       </View>
     </View>
     )
 }
 
-export default Search;
+export default Profile;
 
 const Result = () => {
     return (
