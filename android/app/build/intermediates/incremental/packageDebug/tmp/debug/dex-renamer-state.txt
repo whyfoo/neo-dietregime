@@ -1,4 +1,7 @@
-#Sun Nov 29 22:45:06 ICT 2020
+#Fri Dec 04 08:35:36 ICT 2020
 base.0=C\:\\Users\\Jonathan Elloy\\Desktop\\DietRegime\\neo-dietregime\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\vreid\\Documents\\GitHub\\neo-dietregime\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex

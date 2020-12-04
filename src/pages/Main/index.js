@@ -129,9 +129,9 @@ const Main = ({navigation}) => {
         tabBarOptions = {{
           indicatorStyle: {backgroundColor: '#06BB9A'}
         }} >
-          <Tab.Screen name="Breakfast" component = {Breakfast}/>
-          <Tab.Screen name="Lunch" component = {Breakfast} />
-          <Tab.Screen name="Dinner" component={Breakfast} />
+          <Tab.Screen name="Breakfast" children = { () => <FoodListRec judul="Breakfast"/>}/>
+          <Tab.Screen name="Lunch" children = { () => <FoodListRec judul="Lunch"/>} />
+          <Tab.Screen name="Dinner" children = { () => <FoodListRec judul="Dinner"/>} />
         </Tab.Navigator>
       </View>
       {/* <View 
@@ -218,10 +218,10 @@ const Main = ({navigation}) => {
     </View>
   )}
 
-const Breakfast= () => {
+const FoodListRec= (props) => {
   return (
     <View >
-    <Text style={{textAlign: 'center', margin: 20}}>Our Recommendation for: Breakfast</Text>
+    <Text style={{textAlign: 'center', margin: 20}}>Our Recommendation for: {props.judul}</Text>
         <Recommend />
         <Text style={{textAlign: 'center', margin: 20}}>Alternatives</Text> 
         <ScrollView alwaysBounceVertical='true'>

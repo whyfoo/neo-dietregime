@@ -3,11 +3,11 @@ import {View, ScrollView} from 'react-native';
 import Begin from './pages/Begin';
 import Login from './pages/Login';
 import Main from './pages/Main';
-import ProfileContent from './pages/ProfileContent';
 import HomePages from './pages/HomePages'
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
+import Profile from './pages/Profile';
 
 const Stack = createStackNavigator();
 
@@ -32,7 +32,7 @@ const App = () => {
         <Stack.Screen name="Begin" component={Begin} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Main" component={HomePages} />
-        <Stack.Screen name="Profile" component={ProfileContent} />
+        <Stack.Screen name="Profile" component={Profile} />
       </Stack.Navigator>
     </NavigationContainer>
   );
