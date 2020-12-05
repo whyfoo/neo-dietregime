@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "926391739971",
+    "firebase_url": "https://diet-regime.firebaseio.com",
+    "project_id": "diet-regime",
+    "storage_bucket": "diet-regime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926391739971:android:0833ad048cd276d77116f6",
+        "android_client_info": {
+          "package_name": "com.kelompok13.dietregime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926391739971-mjkq0412enhecmecvjvn8niad46ck1j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuS_afLddJ9U47YPct7l-8MSZPF_ANrKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926391739971-mjkq0412enhecmecvjvn8niad46ck1j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
