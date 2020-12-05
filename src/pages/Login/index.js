@@ -16,17 +16,18 @@ import {
 const Login = ({navigation}) => {
   const win = Dimensions.get('window');
   return (
-    <TouchableWithoutFeedback onPress={ () => {
-      Keyboard.dismiss();
-    }}>
+    <TouchableWithoutFeedback
+      onPress={() => {
+        Keyboard.dismiss();
+      }}>
       <View style={styles.container}>
         <View style={{flex: 1}}>
           <Image
             source={{
               uri:
                 'https://images.unsplash.com/photo-1594890716890-16b1dde476ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=924&q=80',
-              width: "100%",
-              height: "100%",
+              width: '100%',
+              height: '100%',
             }}
             style={{}}
           />
@@ -51,21 +52,28 @@ const Login = ({navigation}) => {
             Sign in with your account.
           </Text>
 
-          <TextInput 
-          style={styles.inputBox} 
-          placeholder = 'Username/Email' 
-          placeholderTextColor = 'white'/>
+          <TextInput
+            style={styles.inputBox}
+            placeholder="Username/Email"
+            placeholderTextColor="white"
+          />
 
-          <TextInput 
-          style={styles.inputBox} 
-          placeholder = 'Password' 
-          placeholderTextColor = 'white' />
+          <TextInput
+            style={styles.inputBox}
+            placeholder="Password"
+            placeholderTextColor="white"
+            secureTextEntry={true}
+          />
 
-          <TouchableOpacity style={styles.tombol} onPress={() => navigation.navigate('Main')}>
+          <TouchableOpacity
+            style={styles.tombol}
+            onPress={() => navigation.navigate('Main')}>
             <Text style={{color: 'white'}}>Login</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={{marginTop: 10}} onPress={() => navigation.goBack()}>
+          <TouchableOpacity
+            style={{marginTop: 10}}
+            onPress={() => navigation.goBack()}>
             <Text style={{color: 'tomato'}}>Back</Text>
           </TouchableOpacity>
         </View>
