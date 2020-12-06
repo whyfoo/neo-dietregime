@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
   StyleSheet,
   Text,
@@ -12,9 +12,13 @@ import {
   Keyboard,
   TextInput,
 } from 'react-native';
+import auth from '@react-native-firebase/auth';
+import {Value} from 'react-native-reanimated';
 
 const Login = ({navigation}) => {
   const win = Dimensions.get('window');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   return (
     <TouchableWithoutFeedback
       onPress={() => {
@@ -56,6 +60,7 @@ const Login = ({navigation}) => {
             style={styles.inputBox}
             placeholder="Username/Email"
             placeholderTextColor="white"
+            onChangeText={(email) => setEmail(email)}
           />
 
           <TextInput
@@ -63,11 +68,33 @@ const Login = ({navigation}) => {
             placeholder="Password"
             placeholderTextColor="white"
             secureTextEntry={true}
+            onChangeText={(password) => setPassword(password)}
           />
 
           <TouchableOpacity
             style={styles.tombol}
-            onPress={() => navigation.navigate('Main')}>
+            onPress={() =>
+              auth()
+                .signInWithEmailAndPassword(email, password)
+                .then(() => {
+                  console.log('User account created & signed in!');
+                  navigation.navigate('Main');
+                })
+                .catch((error) => {
+                  if (error.code === 'auth/email-already-in-use') {
+                    console.log('That email address is already in use!');
+                    alert('That email address is already in use!');
+                  }
+
+                  if (error.code === 'auth/invalid-email') {
+                    console.log('That email address is invalid!');
+                  }
+
+                  console.error(error);
+                })
+            }
+            // onPress={() => navigation.navigate('Main')}
+          >
             <Text style={{color: 'white'}}>Login</Text>
           </TouchableOpacity>
 

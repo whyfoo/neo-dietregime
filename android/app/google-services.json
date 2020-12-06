@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994395387921",
+    "project_id": "dietregime-f99d9",
+    "storage_bucket": "dietregime-f99d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994395387921:android:2268cc29f2e342565619b0",
+        "android_client_info": {
+          "package_name": "com.dietre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994395387921-dqvg6cdsammqbmsger4ogrnqavnbds4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy4amTObbLFQUzKRwRjeBqoy7XUxhoisA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994395387921-dqvg6cdsammqbmsger4ogrnqavnbds4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
