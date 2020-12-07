@@ -2,7 +2,6 @@ import React from 'react';
 import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
 import moon from '../../assets/img/moon.jpg';
 import check from '../../assets/icons/checklist.png';
-import database from '@react-native-firebase/database';
 
 const Recommend = () => {
   return (
@@ -23,16 +22,7 @@ const Recommend = () => {
         <Text style={{marginLeft: '8%', fontSize: 14}}>500 cal</Text>
       </View>
 
-      <TouchableOpacity
-        onPress={() =>
-          database()
-            .ref('/users/123')
-            .set({
-              name: 'Ada Lovelace',
-              age: 31,
-            })
-            .then(() => alert('Data set.'))
-        }>
+      <TouchableOpacity>
         <Image
           source={check}
           style={{width: 40, height: 40, borderRadius: 5}}
