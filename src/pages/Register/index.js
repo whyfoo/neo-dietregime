@@ -1,102 +1,138 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {
   StyleSheet,
   Text,
   View,
-  SafeAreaView,
-  Image,
-  Dimensions,
-  TouchableOpacity,
-  TouchableHighlight,
   TextInput,
+  Button,
+  Alert,
+  ActivityIndicator,
+  TouchableOpacity,
 } from 'react-native';
-import Logo from '../../assets/img/logo.png';
 
-const Register = () => {
-  const win = Dimensions.get('window');
-  return (
-    <View style={{backgroundColor: 'white'}}>
-      <View style={{flex: 1}}>
-        {/* <Image
-          source={{
-            uri:
-              'https://images.unsplash.com/photo-1594890716890-16b1dde476ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=924&q=80',
-            width: win.width,
-            height: win.height / 2,
-          }}
-          style={{}}
-        /> */}
-        <Image
-          source={Logo}
-          style={{
-            marginVertical: 50,
-            padding: 10,
-            width: 100,
-            height: 80,
-            alignSelf: 'center',
-          }}
-        />
-      </View>
+export default class Register extends Component {
+  constructor() {
+    super();
+    this.state = {
+      displayName: '',
+      email: '',
+      password: '',
+      isLoading: false,
+    };
+  }
 
-      <View
-        style={{
-          backgroundColor: 'white',
-          flex: 1,
-          flexDirection: 'column',
-          alignItems: 'center',
-        }}>
+  updateInputVal = (val, prop) => {
+    const state = this.state;
+    state[prop] = val;
+    this.setState(state);
+  };
+
+  registerUser = () => {
+    if (this.state.email === '' && this.state.password === '') {
+      Alert.alert('Enter details to signup!');
+    } else {
+      this.setState({
+        isLoading: true,
+      });
+      this.props.navigation.navigate('Login');
+    }
+  };
+
+  render() {
+    if (this.state.isLoading) {
+      return (
+        <View style={styles.preloader}>
+          <ActivityIndicator size="large" color="#9E9E9E" />
+        </View>
+      );
+    }
+    return (
+      <View style={styles.container}>
         <Text
           style={{
-            fontSize: 23,
-            marginHorizontal: 20,
-            paddingVertical: 20,
-            justifyContent: 'center',
             textAlign: 'center',
-            fontFamily: 'Quicksand',
+            fontSize: 23,
+            marginBottom: 40,
           }}>
-          Sign In
+          Welcome, new user!
         </Text>
 
-        <TextInput style={[styles.inputBox, {marginVertical: 20}]}>
-          Username/email
-        </TextInput>
-
-        <TextInput style={styles.inputBox}>Password</TextInput>
+        <TextInput
+          style={styles.inputStyle}
+          placeholder="Name"
+          value={this.state.displayName}
+          onChangeText={(val) => this.updateInputVal(val, 'displayName')}
+        />
+        <TextInput
+          style={styles.inputStyle}
+          placeholder="Email"
+          value={this.state.email}
+          onChangeText={(val) => this.updateInputVal(val, 'email')}
+        />
+        <TextInput
+          style={styles.inputStyle}
+          placeholder="Password"
+          value={this.state.password}
+          onChangeText={(val) => this.updateInputVal(val, 'password')}
+          maxLength={15}
+          secureTextEntry={true}
+        />
 
         <TouchableOpacity
-          style={[styles.tombolawal, {backgroundColor: 'teal'}]}>
-          <Text style={{color: 'white'}}>Register</Text>
+          style={styles.tombol}
+          onPress={() => this.registerUser()}>
+          <Text>Register</Text>
         </TouchableOpacity>
-      </View>
-    </View>
-  );
-};
 
-export default Register;
+        <Text
+          style={styles.loginText}
+          onPress={() => this.props.navigation.navigate('Login')}>
+          Already Registered? Login here.
+        </Text>
+      </View>
+    );
+  }
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fcfcfc',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    padding: 35,
+    backgroundColor: '#fff',
   },
-
-  inputBox: {
-    width: 280,
-    height: 35,
-    backgroundColor: 'gray',
-    borderRadius: 25,
-    paddingHorizontal: 15,
-    fontSize: 13,
-    color: '#ffffff',
-    marginVertical: 12,
+  inputStyle: {
+    width: '100%',
+    marginBottom: 15,
+    paddingBottom: 15,
+    alignSelf: 'center',
+    borderColor: '#ccc',
+    borderBottomWidth: 1,
   },
-
-  tombolawal: {
-    backgroundColor: 'green',
-    width: '50%',
+  loginText: {
+    color: 'darkcyan',
+    marginTop: 20,
+    textAlign: 'center',
+  },
+  preloader: {
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    position: 'absolute',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#fff',
+  },
+  tombol: {
+    backgroundColor: 'pink',
+    width: '70%',
     paddingVertical: 10,
-    marginVertical: 50,
+    marginTop: 25,
     borderRadius: 10,
     alignItems: 'center',
+    alignSelf: 'center',
   },
 });

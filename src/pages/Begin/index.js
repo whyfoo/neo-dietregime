@@ -45,7 +45,9 @@ const Begin = ({navigation}) => {
           Personalized meal plans to achieve your dream!
         </Text>
 
-        <TouchableOpacity style={styles.tombolawal}>
+        <TouchableOpacity
+          style={styles.tombolawal}
+          onPress={() => navigation.navigate('Register')}>
           <Text>Register</Text>
         </TouchableOpacity>
 

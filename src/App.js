@@ -1,16 +1,11 @@
 import React from 'react';
 import {View, ScrollView} from 'react-native';
-import SampleComponent from './pages/SampleComponent';
-import StylingRN from './pages/StylingRN';
-import FlexBox from './pages/FlexBox';
-import Position from './pages/Position';
-import PropsDinamis from './pages/PropsDinamis';
-import StateDinamis from './pages/StateDinamis';
-import Communication from './pages/Communication';
-import BasicJS from './pages/BasicJS';
 import Begin from './pages/Begin';
 import Login from './pages/Login';
 import Main from './pages/Main';
+import HomePages from './pages/HomePages';
+import Profile from './pages/Profile';
+import Register from './pages/Register';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
@@ -34,11 +29,12 @@ const App = () => {
     // </View>
 
     <NavigationContainer>
-      <Stack.Navigator headerMode ="none" initialRouteName="Begin">
+      <Stack.Navigator headerMode="none" initialRouteName="Begin">
         <Stack.Screen name="Begin" component={Begin} />
         <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Main" component={Main} />
-        {/* <Stack.Screen name="Info" component={Info} /> */}
+        <Stack.Screen name="Register" component={Register} />
+        <Stack.Screen name="Main" component={HomePages} />
+        <Stack.Screen name="Profile" component={Profile} />
       </Stack.Navigator>
     </NavigationContainer>
   );

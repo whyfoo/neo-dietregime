@@ -9,60 +9,239 @@
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:4:5-67
-12-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:4:22-64
+12-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Jonathan Elloy\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Jonathan Elloy\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:6:5-25:19
-16        android:name="com.dietre.MainApplication"
-16-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] C:\Users\Jonathan Elloy\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\debug\AndroidManifest.xml:7:18-53
-25        <activity
-25-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:13:7-23:18
-26            android:name="com.dietre.MainActivity"
-26-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:14:9-37
-27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-27-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:16:9-86
-28            android:label="@string/app_name"
-28-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:15:9-41
-29            android:launchMode="singleTask"
-29-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:17:9-40
-30            android:windowSoftInputMode="adjustResize" >
-30-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:18:9-51
-31            <intent-filter>
-31-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:19:9-22:25
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:20:13-65
-32-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:20:21-62
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:21:13-73
-34-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:21:23-70
-35            </intent-filter>
-36        </activity>
-37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-37-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:24:7-84
-37-->C:\Users\Jonathan Elloy\Desktop\DietRegime\neo-dietregime\android\app\src\main\AndroidManifest.xml:24:17-81
-38    </application>
-39
-40</manifest>
+13-->[com.facebook.flipper:flipper:0.54.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\da73bf2eac3b39390219acede4507127\flipper-0.54.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\da73bf2eac3b39390219acede4507127\flipper-0.54.0\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+15-->[:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+16
+17    <application
+17-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:6:5-25:19
+18        android:name="com.dietre.MainApplication"
+18-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:7:7-38
+19        android:allowBackup="false"
+19-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:11:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\9a4658afade2e57b9a640b6674c28496\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:9:7-41
+23        android:label="@string/app_name"
+23-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:8:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:10:7-52
+25        android:theme="@style/AppTheme"
+25-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:12:7-38
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\debug\AndroidManifest.xml:7:18-53
+27        <activity
+27-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:13:7-23:18
+28            android:name="com.dietre.MainActivity"
+28-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:14:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+29-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:16:9-86
+30            android:label="@string/app_name"
+30-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:15:9-41
+31            android:launchMode="singleTask"
+31-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:17:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:18:9-51
+33            <intent-filter>
+33-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:19:9-22:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:20:13-65
+34-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:20:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:21:13-73
+36-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:21:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+39-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:24:7-84
+39-->C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:24:17-81
+40        <activity
+40-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
+41            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+41-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
+42            android:excludeFromRecents="true"
+42-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
+43            android:exported="false"
+43-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
+44            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+44-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
+45        <!--
+46            Service handling Google Sign-In user revocation. For apps that do not integrate with
+47            Google Sign-In, this service will never be started.
+48        -->
+49        <service
+49-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
+50            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+50-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
+51            android:exported="true"
+51-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
+52            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+52-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
+53            android:visibleToInstantApps="true" />
+53-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
+54
+55        <activity
+55-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:27:9-34:50
+56            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+56-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:28:13-85
+57            android:excludeFromRecents="true"
+57-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:29:13-46
+58            android:exported="true"
+58-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:30:13-36
+59            android:launchMode="singleTask"
+59-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:31:13-44
+60            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+60-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:32:13-102
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:33:13-72
+62        <activity
+62-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:35:9-52:20
+63            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+63-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:36:13-80
+64            android:excludeFromRecents="true"
+64-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:37:13-46
+65            android:exported="true"
+65-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:38:13-36
+66            android:launchMode="singleTask"
+66-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:39:13-44
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+67-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:40:13-72
+68            <intent-filter>
+68-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:41:13-51:29
+69                <action android:name="android.intent.action.VIEW" />
+69-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:17-69
+69-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:25-66
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:17-76
+71-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:27-73
+72                <category android:name="android.intent.category.BROWSABLE" />
+72-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:17-78
+72-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:27-75
+73
+74                <data
+74-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:47:17-50:51
+75                    android:host="firebase.auth"
+75-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:48:21-49
+76                    android:path="/"
+76-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:49:21-37
+77                    android:scheme="genericidp" />
+77-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:50:21-48
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:53:9-70:20
+81            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+81-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:54:13-79
+82            android:excludeFromRecents="true"
+82-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:55:13-46
+83            android:exported="true"
+83-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:56:13-36
+84            android:launchMode="singleTask"
+84-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:57:13-44
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+85-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:58:13-72
+86            <intent-filter>
+86-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:59:13-69:29
+87                <action android:name="android.intent.action.VIEW" />
+87-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:17-69
+87-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:25-66
+88
+89                <category android:name="android.intent.category.DEFAULT" />
+89-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:17-76
+89-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:27-73
+90                <category android:name="android.intent.category.BROWSABLE" />
+90-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:17-78
+90-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:27-75
+91
+92                <data
+92-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:47:17-50:51
+93                    android:host="firebase.auth"
+93-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:48:21-49
+94                    android:path="/"
+94-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:49:21-37
+95                    android:scheme="recaptcha" />
+95-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:50:21-48
+96            </intent-filter>
+97        </activity>
+98
+99        <service
+99-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:72:9-81:19
+100            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+100-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:73:13-101
+101            android:enabled="true"
+101-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:74:13-35
+102            android:exported="false" >
+102-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:75:13-37
+103            <intent-filter>
+103-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:76:13-80:29
+104                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+104-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:77:17-89
+104-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:77:25-86
+105
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:17-76
+106-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:27-73
+107            </intent-filter>
+108        </service>
+109        <service
+109-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:82:9-88:19
+110            android:name="com.google.firebase.components.ComponentDiscoveryService"
+110-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:83:13-84
+111            android:directBootAware="true"
+111-->[com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+112            android:exported="false" >
+112-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:84:13-37
+113            <meta-data
+113-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:85:13-87:85
+114                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+114-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:86:17-109
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:87:17-82
+116        </service>
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+122
+123        <provider
+123-->[com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+124            android:name="com.google.firebase.provider.FirebaseInitProvider"
+124-->[com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+125            android:authorities="com.dietre.firebaseinitprovider"
+125-->[com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+126            android:directBootAware="true"
+126-->[com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+127            android:exported="false"
+127-->[com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+128            android:initOrder="100" />
+128-->[com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+129
+130        <meta-data
+130-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\158d65503d80cf90fb5b2c19bbae5ea6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+131            android:name="com.google.android.gms.version"
+131-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\158d65503d80cf90fb5b2c19bbae5ea6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+132            android:value="@integer/google_play_services_version" />
+132-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\158d65503d80cf90fb5b2c19bbae5ea6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+133    </application>
+134
+135</manifest>
