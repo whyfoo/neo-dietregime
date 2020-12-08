@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="120f3aa2-fc8c-412f-ba24-907a2033f560" name="Default Changelist" comment="masukkin google service">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/neo-dietregime.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+    <list default="true" id="120f3aa2-fc8c-412f-ba24-907a2033f560" name="Default Changelist" comment="masukkin google service.&#10;itu build error di app\build.gradle bisa troubleshoot ga? gw gangerti">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +40,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
@@ -63,6 +61,21 @@
       <option name="presentableId" value="Default" />
       <updated>1607186862433</updated>
     </task>
+    <task id="LOCAL-00001" summary="masukkin google service.&#10;itu build error bisa troubleshoot ga? gw gangerti">
+      <created>1607188220025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607188220025</updated>
+    </task>
+    <task id="LOCAL-00002" summary="masukkin google service.&#10;itu build error di app\build.gradle bisa troubleshoot ga? gw gangerti">
+      <created>1607188316986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607188316986</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,9 +88,46 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="masukkin google service" />
-    <option name="LAST_COMMIT_MESSAGE" value="masukkin google service" />
+    <MESSAGE value="masukkin google service.&#10;itu build error bisa troubleshoot ga? gw gangerti" />
+    <MESSAGE value="masukkin google service.&#10;itu build error di app\build.gradle bisa troubleshoot ga? gw gangerti" />
+    <option name="LAST_COMMIT_MESSAGE" value="masukkin google service.&#10;itu build error di app\build.gradle bisa troubleshoot ga? gw gangerti" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="678" y="244" width="816" height="729" key="#Intentions" timestamp="1607188122362">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="678" y="244" width="816" height="729" key="#Intentions/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607188122362" />
+    <state x="-1480" y="114" key="#Project_Structure" timestamp="1607449426294">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1480" y="114" key="#Project_Structure/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607449426294" />
+    <state x="-1506" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607448748105">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1506" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607448748105" />
+    <state x="949" y="291" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1607187996709">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="949" y="291" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607187996709" />
+    <state x="-1828" y="92" width="1736" height="896" key="AVDManager" timestamp="1607449083711">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1828" y="92" width="1736" height="896" key="AVDManager/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607449083711" />
+    <state x="-1180" y="281" key="FileChooserDialogImpl" timestamp="1607449599502">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1180" y="281" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607449599502" />
+    <state x="1038" y="235" key="RollbackChangesDialog" timestamp="1607187978697">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1038" y="235" key="RollbackChangesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607187978697" />
+    <state x="-1459" y="185" key="SettingsEditor" timestamp="1607450599273">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1459" y="185" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607450599273" />
   </component>
 </project>
