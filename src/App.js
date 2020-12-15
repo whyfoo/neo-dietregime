@@ -29,7 +29,7 @@ const App = () => {
     // </View>
 
     <NavigationContainer>
-      <Stack.Navigator headerMode="none" initialRouteName="Begin">
+      <Stack.Navigator headerMode="none" initialRouteName="Main">
         <Stack.Screen name="Begin" component={Begin} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Register" component={Register} />

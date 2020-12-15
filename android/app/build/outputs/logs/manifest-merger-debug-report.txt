@@ -8,9 +8,11 @@ MERGED from C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\da73bf2eac3b39390219acede4507127\flipper-0.54.0\AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\7f5d03990f53fc2831dbbcc02558ff57\flipper-network-plugin-0.54.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\af4e534b663c0d8e375dc01400e00cbb\flipper-fresco-plugin-0.54.0\AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-community_masked-view] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-firebase_firestore] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\firestore\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-firebase_app] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d15c59b6755f16928dcb3a1e590d8a36\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-community_masked-view] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
@@ -33,19 +35,22 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] C:\Users\vreid\.gr
 MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\70108db62217ccbc983e6d3702e8d0fd\imagepipeline-base-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:soloader:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\5ae89b14ecbb3f8703d842d2e19e3fed\soloader-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4b0dd2d6ec0bf67f0634075d556a21f9\soloader-0.9.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:2:1-26:12
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\894e182dc7881ea585d337a392cfc0ee\grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\0de090eb085e2927f79d80e53e48fe4a\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d2974ac36bf11b6e048576ef94732df8\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\19060a722b353012cd8bb655c70afa6e\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\41ef6357a64fd4085b38d1efc30ade4f\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d64d217190aaee1335461656f5f82a02\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:17:1-91:12
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4edd1c54e004cbfe2a60bf634bd46ec0\play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\5d07ce1e7012c804172b2500ad2effad\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\7a929fb369588fc057852509bfc2d395\play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\5abf07f6dc89788b6653f7d0e5f87a80\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e8e6275cda39264dd3a3680e9e5fd6e0\firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:15:1-40:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\880f97e10aa9cd8eb5f7ea64cdb3d9a7\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\158d65503d80cf90fb5b2c19bbae5ea6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\726bba49e0183c05224f2d1b5426cbc7\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -66,15 +71,15 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\v
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\bbf007ae7619dc89698c264f3344b6f9\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d96af0c2fdfafd91d6a42e9832a39cbd\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\2e353654f653f1e689dc44fa69ebd468\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\f64a7996f4735509dc340deb81067176\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-components:16.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\2de092dd45cb5e12dae9d4c792ef46d2\jetified-firebase-components-16.0.1\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\394b97ffb558e66eed3204e5e421f5ca\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d083032fdb1417621ab1f4605762445b\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\88b4942c649868cf61d21d40e1e1f329\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\9fe2502cfda519e1e952c07f80bb73c3\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c97e23b277aa98fd0937b56aa27036ff\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\ab1e643a84812407e759e389420d865f\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4742dadb5e3b07f4c91bc18376c65211\jetified-fbcore-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\00ced247fa6be6dba6bf9ca1b61de39e\ui-common-2.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4f6ef422ea9e7c13d13a3b5e0d516506\protolite-well-known-types-17.1.0\AndroidManifest.xml:2:1-11:12
 INJECTED from C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 INJECTED from C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 INJECTED from C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\debug\AndroidManifest.xml:2:1-8:12
@@ -101,8 +106,10 @@ MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\vreid\.gradle\caches\
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\da73bf2eac3b39390219acede4507127\flipper-0.54.0\AndroidManifest.xml:15:5-67
 MERGED from [:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
 MERGED from [:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\main\AndroidManifest.xml:4:22-64
 application
@@ -113,20 +120,22 @@ MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\vreid\.gradle\cach
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4b4fb2bf01911f98be7533aa861d0e30\jetified-react-native-0.63.3\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4b0dd2d6ec0bf67f0634075d556a21f9\soloader-0.9.0\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4b0dd2d6ec0bf67f0634075d556a21f9\soloader-0.9.0\AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\0de090eb085e2927f79d80e53e48fe4a\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\0de090eb085e2927f79d80e53e48fe4a\material-1.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:26:5-89:19
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:26:5-89:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\7a929fb369588fc057852509bfc2d395\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\7a929fb369588fc057852509bfc2d395\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\5abf07f6dc89788b6653f7d0e5f87a80\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\5abf07f6dc89788b6653f7d0e5f87a80\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\880f97e10aa9cd8eb5f7ea64cdb3d9a7\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\880f97e10aa9cd8eb5f7ea64cdb3d9a7\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\158d65503d80cf90fb5b2c19bbae5ea6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:22:5-26:19
@@ -197,12 +206,16 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\vreid\
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\7f5d03990f53fc2831dbbcc02558ff57\flipper-network-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\af4e534b663c0d8e375dc01400e00cbb\flipper-fresco-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\af4e534b663c0d8e375dc01400e00cbb\flipper-fresco-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-community_masked-view] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_firestore] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\firestore\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_firestore] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\firestore\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase_app] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-firebase_app] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d15c59b6755f16928dcb3a1e590d8a36\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d15c59b6755f16928dcb3a1e590d8a36\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [:react-native-community_masked-view] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
@@ -247,6 +260,10 @@ MERGED from [com.facebook.fresco:soloader:2.2.0] C:\Users\vreid\.gradle\caches\t
 MERGED from [com.facebook.fresco:soloader:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\5ae89b14ecbb3f8703d842d2e19e3fed\soloader-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4b0dd2d6ec0bf67f0634075d556a21f9\soloader-0.9.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4b0dd2d6ec0bf67f0634075d556a21f9\soloader-0.9.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\894e182dc7881ea585d337a392cfc0ee\grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\894e182dc7881ea585d337a392cfc0ee\grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\0de090eb085e2927f79d80e53e48fe4a\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\0de090eb085e2927f79d80e53e48fe4a\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d2974ac36bf11b6e048576ef94732df8\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -257,10 +274,10 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vre
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\41ef6357a64fd4085b38d1efc30ade4f\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d64d217190aaee1335461656f5f82a02\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d64d217190aaee1335461656f5f82a02\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4edd1c54e004cbfe2a60bf634bd46ec0\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4edd1c54e004cbfe2a60bf634bd46ec0\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\5d07ce1e7012c804172b2500ad2effad\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
@@ -269,10 +286,12 @@ MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\vre
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\7a929fb369588fc057852509bfc2d395\play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\5abf07f6dc89788b6653f7d0e5f87a80\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\5abf07f6dc89788b6653f7d0e5f87a80\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e8e6275cda39264dd3a3680e9e5fd6e0\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e8e6275cda39264dd3a3680e9e5fd6e0\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\880f97e10aa9cd8eb5f7ea64cdb3d9a7\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\880f97e10aa9cd8eb5f7ea64cdb3d9a7\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\158d65503d80cf90fb5b2c19bbae5ea6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:20:5-44
@@ -313,8 +332,8 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vreid\.gradle\caches\tra
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d96af0c2fdfafd91d6a42e9832a39cbd\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\2e353654f653f1e689dc44fa69ebd468\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\2e353654f653f1e689dc44fa69ebd468\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\f64a7996f4735509dc340deb81067176\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\f64a7996f4735509dc340deb81067176\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\2de092dd45cb5e12dae9d4c792ef46d2\jetified-firebase-components-16.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\2de092dd45cb5e12dae9d4c792ef46d2\jetified-firebase-components-16.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\394b97ffb558e66eed3204e5e421f5ca\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\394b97ffb558e66eed3204e5e421f5ca\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\d083032fdb1417621ab1f4605762445b\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -325,12 +344,12 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\vreid\.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\9fe2502cfda519e1e952c07f80bb73c3\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c97e23b277aa98fd0937b56aa27036ff\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c97e23b277aa98fd0937b56aa27036ff\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\ab1e643a84812407e759e389420d865f\multidex-2.0.0\AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\ab1e643a84812407e759e389420d865f\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4742dadb5e3b07f4c91bc18376c65211\jetified-fbcore-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4742dadb5e3b07f4c91bc18376c65211\jetified-fbcore-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\00ced247fa6be6dba6bf9ca1b61de39e\ui-common-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\00ced247fa6be6dba6bf9ca1b61de39e\ui-common-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4f6ef422ea9e7c13d13a3b5e0d516506\protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4f6ef422ea9e7c13d13a3b5e0d516506\protolite-well-known-types-17.1.0\AndroidManifest.xml:7:5-9:41
 INJECTED from C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\debug\AndroidManifest.xml
 INJECTED from C:\Users\vreid\Documents\GitHub\neo-dietregime\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -353,126 +372,122 @@ ADDED from [:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-die
 		ADDED from [:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\894e182dc7881ea585d337a392cfc0ee\grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\894e182dc7881ea585d337a392cfc0ee\grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from [:react-native-firebase_auth] C:\Users\vreid\Documents\GitHub\neo-dietregime\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
-	android:visibleToInstantApps
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:18.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\417cd6b002d4424cfc58e4ad88ce24b6\play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
-activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:27:9-34:50
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:29:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:31:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:30:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:32:13-102
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:33:13-72
-	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:34:13-47
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:28:13-85
-activity#com.google.firebase.auth.internal.GenericIdpActivity
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:35:9-52:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:37:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:39:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:38:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:40:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:36:13-80
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:41:13-51:29
-action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:17-69
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:42:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:44:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:45:27-75
-data
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:47:17-50:51
-	android:path
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:49:21-37
-	android:host
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:48:21-49
-	android:scheme
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:50:21-48
-activity#com.google.firebase.auth.internal.RecaptchaActivity
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:53:9-70:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:55:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:57:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:56:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:58:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:54:13-79
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:59:13-69:29
-service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:72:9-81:19
-	android:enabled
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:74:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:75:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:73:13-101
-intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:76:13-80:29
-action#com.google.firebase.auth.api.gms.service.START
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:77:17-89
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:77:25-86
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:82:9-88:19
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:33:9-37:35
-MERGED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:33:9-37:35
+ADDED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:84:13-37
+		ADDED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:19:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:37:13-32
+		ADDED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:37:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+		ADDED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:83:13-84
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:85:13-87:85
+		ADDED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:18:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:87:17-82
+		ADDED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:20.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\e58cc366a735eed30c38796b599f446e\jetified-firebase-auth-20.0.0\AndroidManifest.xml:86:17-109
+		ADDED from [com.google.firebase:firebase-firestore:22.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\1be8089246f65bc316866130c0c8e817\jetified-firebase-firestore-22.0.0\AndroidManifest.xml:21:17-111
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\13cc202fb0ecd1bae9cb4a6526cdc31e\play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\3d2bbb9b6638a708ca0fbbdc82f8a76d\jetified-firebase-auth-20.0.1\AndroidManifest.xml:78:17-109
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -482,17 +497,17 @@ ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gr
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\c4fb6b3249f446fdb0995f0c1cd7339f\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+ADDED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+		ADDED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+		ADDED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+		ADDED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+		ADDED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:19.3.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\4452a2d5c697e9d442445901f742fd8f\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+		ADDED from [com.google.firebase:firebase-common:19.4.0] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\44bb1b68f1fd2221585a248909967369\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\vreid\.gradle\caches\transforms-2\files-2.1\158d65503d80cf90fb5b2c19bbae5ea6\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
 	android:value
