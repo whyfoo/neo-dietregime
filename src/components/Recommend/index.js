@@ -11,7 +11,7 @@ class Recommend extends Component {
   }
 
   async componentDidMount() {
-    const valueA = await firestore().collection('food').doc('nasgor').get();
+    const valueA = await firestore().collection('food').doc('buryam').get();
     this.setState({data: valueA});
     this.setState({nama: this.state.data._data.name});
     this.setState({cal: this.state.data._data.cal});

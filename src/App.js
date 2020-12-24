@@ -16,31 +16,16 @@ const win = Dimensions.get('window');
 
 const App = () => {
   return (
-    // <View>
-    //   <ScrollView>
-    //     {/* <SampleComponent />
-    //     {/* <StylingRN /> */}
-    //     {/* <FlexBox /> */}
-    //     {/* <Position /> */}
-    //     {/* <PropsDinamis /> */}
-    //     {/* <StateDinamis /> */}
-    //     {/* <Communication /> */}
-    //     {/* <BasicJS /> */}
-    //     {/* <Begin /> */}
-    //   </ScrollView>
-    // </View>
-
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Main" >
-        <Stack.Screen name="Begin" component={Begin} />
-        <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="Register" component={Register} />
+      <Stack.Navigator initialRouteName="Begin" >
+        <Stack.Screen name="Begin" component={Begin} options={{headerShown: false}}/>
+        <Stack.Screen name="Login" component={Login} options={{headerShown: false}}/>
+        <Stack.Screen name="Register" component={Register} options={{headerShown: false}}/>
         <Stack.Screen name="Main" component={HomePages} options={{headerTitle: props => <Header />,
-      headerStyle: {
-        height: win.height/9,
-        backgroundColor: '#EDEDED'
-      }}}/> 
-        <Stack.Screen name="Profile" component={Profile} options={{headerTitle: props => <Header />}}/>
+          headerStyle: {
+            height: win.height/9,
+            backgroundColor: '#EDEDED'
+          }}}/> 
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -24,6 +24,7 @@ export default function HomePages() {
   return (
     <Tab.Navigator
       initialRouteName="Main"
+      shifting={true}
       activeColor="teal"
       barStyle={{
         backgroundColor: '#EDEDED',
@@ -42,9 +43,9 @@ export default function HomePages() {
         name="Main"
         component={Main}
         options={{
-          tabBarLabel: '',
+          tabBarLabel: 'Home',
           tabBarIcon: () => (
-            <Image source={Home} style={{width: 36, height: 36}} />
+            <Image source={Home} style={{width: 30, height: 30}} />
           ),
         }}
       />

@@ -9,6 +9,7 @@ import {
   ActivityIndicator,
   TouchableOpacity,
 } from 'react-native';
+import auth from '@react-native-firebase/auth';
 
 export default class Register extends Component {
   constructor() {
@@ -34,7 +35,27 @@ export default class Register extends Component {
       this.setState({
         isLoading: true,
       });
-      this.props.navigation.navigate('Login');
+      auth()
+        .createUserWithEmailAndPassword(this.state.email, this.state.password)
+        .then(() => {
+          console.log('User account created & signed in!');
+        })
+        .catch(error => {
+          if (error.code === 'auth/email-already-in-use') {
+            console.log('That email address is already in use!');
+          }
+
+          if (error.code === 'auth/invalid-email') {
+            console.log('That email address is invalid!');
+          }
+
+        console.error(error);
+        });
+      Alert.alert('Registrasi Berhasil!', 'Silahkan Login',[
+        { text: "OK", onPress: () => this.props.navigation.navigate('Login') }
+      ],
+      { cancelable: false }
+    );
     }
   };
 

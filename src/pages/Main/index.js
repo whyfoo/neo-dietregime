@@ -171,85 +171,9 @@ const Main = ({navigation}) => {
           />
         </Tab.Navigator>
       </View>
-      {/* <View 
-      style={{
-        flex:1, 
-        flexDirection:'row', 
-        alignItems: 'center',
-        justifyContent: 'space-around',
-        }}>
-
-        <TouchableOpacity>
-          <Text style={{color: 'teal', borderBottomColor: 'lightblue', borderBottomWidth: 1, fontSize: 18}}>All</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity>
-          <Text style={{color: 'teal', borderBottomColor: 'lightblue', borderBottomWidth: 1, fontSize: 18}}>Breakfast</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity>
-          <Text style={{color: 'teal', borderBottomColor: 'lightblue', borderBottomWidth: 1, fontSize: 18}}>Lunch</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity>
-          <Text style={{color: 'teal', borderBottomColor: 'lightblue', borderBottomWidth: 1, fontSize: 18}}>Dinner</Text>
-        </TouchableOpacity>
-
-        
-      </View> */}
-
+      
       {/*Main Section End ---------------------------------------------------*/}
-
-      {/*Footer Section Begin -----------------------------------------------*/}
-      {/* <View 
-      style={{
-        flex: 1.5, 
-        backgroundColor: '#EDEDED', 
-        flexDirection: 'row', 
-        justifyContent: 'space-around',
-        alignItems: 'center'
-        }}>
-        
-        <TouchableOpacity 
-        style = {isSearch ? styles.footerPressed : styles.footerButton} 
-        onPress = { () => { changeTab('search'); }
-        }>
-          <View>
-            <Image source={magnify} 
-            style={{
-              width: 40,
-              height: 40,
-              }}/>
-            </View>
-        </TouchableOpacity>
-
-        <TouchableOpacity 
-        style = {isHome ? styles.footerPressed : styles.footerButton} 
-        onPress = { () => { changeTab('home'); }} >
-          <View>
-            <Image source={home}
-            style={{
-              width: 40,
-              height: 40,
-              }} />
-          </View>
-        </TouchableOpacity>
-        
-        
-        <TouchableOpacity 
-        style = {isProfile ? styles.footerPressed : styles.footerButton} 
-        onPress = { () => { changeTab('profile'); navigation.navigate('Profile')}} >
-          <View>
-            <Image source={profile}
-            style={{
-              width: 40,
-              height: 40,
-              }} /> 
-          </View>
-        </TouchableOpacity>
-      </View> */}
-      {/*Footer Section End ---------------------------------------------------*/}
-    </View>
+  </View>
     
   );
 };
