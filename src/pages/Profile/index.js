@@ -8,46 +8,7 @@ import Recommend from '../../components/Recommend';
 const Profile = () => {
     return (
     <View style = {{flex: 1, backgroundColor: 'white'}}>
-        <View 
-        style={{
-          flex: 1.5, 
-          flexDirection: 'row',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          backgroundColor: '#EDEDED', 
-          paddingHorizontal: 15, }}>
-        <View 
-        style={{
-          height: '60%', 
-          width: '15%',
-          borderWidth: 2,
-          borderColor: 'gray',
-          borderRadius: 10
-          }}>
-          <TouchableOpacity>
-            <Image source={lines} resizeMode = 'center'
-            style={{
-              width: '100%',
-              height: '100%',
-              }}/>
-            </TouchableOpacity>
-        </View>
-
-        <View 
-        style={{
-          height: '80%', 
-          width: '20%', 
-          left: '50%', 
-          position: 'absolute'
-          }}>
-          <Image source={logo} resizeMode = 'center'
-          style={{
-            height: '100%',
-            width: '100%',
-            }}/>
-        </View>
-      </View>
-
+        
       <View style={{flex: 8, padding: 20, alignItems: 'center'}}>
         <Image source={{uri: 'https://picsum.photos/75'}} style={{width: 75, height: 75, borderRadius: 50}}/>
         <Text style={{margin: 20}}>Fullname's Profile Preference</Text>

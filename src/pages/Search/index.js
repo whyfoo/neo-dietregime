@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   Image,
   ScrollView,
+  KeyboardAvoidingView
 } from 'react-native';
 import lines from '../../assets/icons/threeLine.png';
 import logo from '../../assets/icons/logo.png';
@@ -23,53 +24,7 @@ class Search extends Component {
 
   render() {
     return (
-      <View style={{flex: 1, backgroundColor: 'white'}}>
-        <View
-          style={{
-            flex: 1.5,
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            backgroundColor: '#EDEDED',
-            paddingHorizontal: 15,
-          }}>
-          <View
-            style={{
-              height: '60%',
-              width: '15%',
-              borderWidth: 2,
-              borderColor: 'gray',
-              borderRadius: 10,
-            }}>
-            <TouchableOpacity>
-              <Image
-                source={lines}
-                resizeMode="center"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                }}
-              />
-            </TouchableOpacity>
-          </View>
-
-          <View
-            style={{
-              height: '80%',
-              width: '20%',
-              left: '50%',
-              position: 'absolute',
-            }}>
-            <Image
-              source={logo}
-              resizeMode="center"
-              style={{
-                height: '100%',
-                width: '100%',
-              }}
-            />
-          </View>
-        </View>
+      <KeyboardAvoidingView behavior='height' style={{flex: 1, backgroundColor: 'white'}}>
 
         <View
           style={{
@@ -100,7 +55,7 @@ class Search extends Component {
             <Tab.Screen name="Dinner" component={Result} />
           </Tab.Navigator>
         </View>
-      </View>
+      </KeyboardAvoidingView>
     );
   }
 }

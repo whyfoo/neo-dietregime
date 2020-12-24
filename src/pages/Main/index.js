@@ -9,6 +9,7 @@ import {
   TouchableOpacity,
   ScrollView,
   FlatList,
+  KeyboardAvoidingView
 } from 'react-native';
 import {startClock} from 'react-native-reanimated';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
@@ -17,6 +18,7 @@ import logo from '../../assets/icons/logo.png';
 import magnify from '../../assets/icons/magnify.png';
 import home from '../../assets/icons/home.png';
 import profile from '../../assets/icons/profile.png';
+import Header from '../../header';
 import Recommend from '../../components/Recommend';
 import RecommendAlt from '../../components/RecommendAlt';
 import gear from '../../assets/icons/setting.png';
@@ -48,13 +50,14 @@ const Main = ({navigation}) => {
   };
 
   return (
+
     <View
       style={{
         flex: 1,
         backgroundColor: 'white',
       }}>
       {/* Header Section Begin-------------------------------------*/}
-      <View
+      {/* <View
         style={{
           flex: 1.5,
           flexDirection: 'row',
@@ -101,7 +104,7 @@ const Main = ({navigation}) => {
             }}
           />
         </View>
-      </View>
+      </View> */}
       {/* Header Section End----------------------------------------------*/}
 
       {/* Main Section Begin----------------------------------------------*/}
@@ -247,6 +250,7 @@ const Main = ({navigation}) => {
       </View> */}
       {/*Footer Section End ---------------------------------------------------*/}
     </View>
+    
   );
 };
 
