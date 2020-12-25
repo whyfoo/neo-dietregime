@@ -9,7 +9,9 @@ import {
   TouchableOpacity,
   ScrollView,
   FlatList,
-  KeyboardAvoidingView
+  KeyboardAvoidingView,
+  BackHandler,
+  ToastAndroid
 } from 'react-native';
 import {startClock} from 'react-native-reanimated';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
@@ -24,6 +26,7 @@ import RecommendAlt from '../../components/RecommendAlt';
 import gear from '../../assets/icons/setting.png';
 
 const Main = ({navigation}) => {
+
   const win = Dimensions.get('window');
   const [isHome, setHome] = useState(true);
   const [isSearch, setSearch] = useState(false);
@@ -48,6 +51,7 @@ const Main = ({navigation}) => {
       setProfile(false);
     }
   };
+
 
   return (
 

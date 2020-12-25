@@ -11,15 +11,20 @@ import {
   TouchableWithoutFeedback,
   Keyboard,
   TextInput,
-  KeyboardAvoidingView
+  KeyboardAvoidingView,
+  Alert
 } from 'react-native';
 import auth from '@react-native-firebase/auth';
 import {Value} from 'react-native-reanimated';
+
+
 
 const Login = ({navigation}) => {
   const win = Dimensions.get('window');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  
+
   return (
     <TouchableWithoutFeedback
       onPress={() => {
@@ -77,8 +82,11 @@ const Login = ({navigation}) => {
             onPress={() =>
               auth()
                 .signInWithEmailAndPassword(email, password)
-                .then(() => {
-                  console.log('User account created & signed in!');
+                .then((user) => {
+                  navigation.reset({
+                    index: 0,
+                    routes: [{name: 'Main'}],
+                  });
                   navigation.navigate('Main');
                 })
                 .catch((error) => {

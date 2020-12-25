@@ -1,36 +1,81 @@
-import React from 'react';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image, ScrollView, Button } from 'react-native';
+import React, {useState, useEffect, Component} from 'react';
+import { 
+  StyleSheet, 
+  Text, 
+  View, 
+  TextInput, 
+  TouchableOpacity, 
+  Image, 
+  ScrollView, 
+  Button,
+  Dimensions } from 'react-native';
+import firestore from '@react-native-firebase/firestore';
+import auth, { FirebaseAuthTypes } from '@react-native-firebase/auth';
 import lines from '../../assets/icons/threeLine.png';
 import logo from '../../assets/icons/logo.png';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import Recommend from '../../components/Recommend';
+import { DrawerItem } from '@react-navigation/drawer';
 
-const Profile = () => {
+
+const win = Dimensions.get('window');
+const dietName = '50 KG hayo bisa';
+const name = 'Haidar Hanif';
+const currentUID = auth().currentUser.uid;
+
+class Profile extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {data: [], nama: '', cal: '', img: '', weight: null};
+  }
+
+  async componentDidMount() {
+    const valueA = await firestore().collection('userdata').doc(`${currentUID}`).get(); 
+    this.setState({data: valueA});
+    this.setState({nama: this.state.data._data.nama});
+  }
+  
+  // async writeQuery(){
+  //   firestore().collection('userdata').doc(`${UID}`).add({})
+  // }
+
+    
+  render(){
     return (
-    <View style = {{flex: 1, backgroundColor: 'white'}}>
-        
-      <View style={{flex: 8, padding: 20, alignItems: 'center'}}>
-        <Image source={{uri: 'https://picsum.photos/75'}} style={{width: 75, height: 75, borderRadius: 50}}/>
-        <Text style={{margin: 20}}>Fullname's Profile Preference</Text>
-        <Button title='Save'/>
+      <View style = {{flex: 1, backgroundColor: 'white'}}>
+          
+        <View style={{flex: 8, padding: 20, alignItems: 'center'}}>
+          <Image source={{uri: 'https://picsum.photos/75'}} 
+          style={{
+          width: win.width/3, 
+          height: win.width/3, 
+          borderRadius: 100}}/>
+          <Text style={{margin: 20, fontSize: 30}}>{this.state.nama}</Text>
+          <Text style={{fontSize: 25, fontWeight: 'bold'}}>{dietName}</Text>
+          <TextInput
+            style={styles.inputBox}
+            placeholder="Berat"
+            placeholderTextColor="white"
+            onChangeText={(berat) => this.state.weight = berat}
+          />
+          <Button title='Save' onPress = {() => firestore()
+  .collection('userdata')
+  .doc(`${currentUID}`)
+  .set({
+    nama: 'Nurhadi Aldo',
+    weight: this.state.weight,
+  })
+  .then(() => {
+    console.log('User added!');
+  })}/>
+        </View>
       </View>
-    </View>
-    )
+      )
+  }
+  
 }
 
 export default Profile;
-
-const Result = () => {
-    return (
-        <ScrollView>
-            <Recommend style={{marginVertical: 15}}/>
-            <Recommend style={{marginVertical: 15}}/>
-            <Recommend style={{marginVertical: 15}}/>
-            <Recommend style={{marginVertical: 15}}/>
-            <Recommend style={{marginVertical: 15}}/>
-            <Recommend style={{marginVertical: 15}}/>
-        </ScrollView>
-    )}
 
 const styles = StyleSheet.create({
     inputBox: {
