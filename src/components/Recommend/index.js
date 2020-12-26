@@ -7,15 +7,15 @@ import check from '../../assets/icons/checklist.png';
 class Recommend extends Component {
   constructor(props) {
     super(props);
-    this.state = {data: [], nama: '', cal: '', img: ''};
+    this.state = {data: [], nama: '', cal: '', img: null};
   }
 
   async componentDidMount() {
-    const valueA = await firestore().collection('food').doc('buryam').get();
+    const valueA = await firestore().collection('food').doc(this.props.name).get();
     this.setState({data: valueA});
     this.setState({nama: this.state.data._data.name});
     this.setState({cal: this.state.data._data.cal});
-    this.setState({img: this.state.data._data.img});
+    this.setState({img: `${this.state.data._data.img}`});
   }
 
   render() {
@@ -23,7 +23,7 @@ class Recommend extends Component {
       <View style={styles.container}>
         <View style={{flexDirection: 'row', alignItems: 'center'}}>
           <Image
-            source={{uri: this.state.img}}
+            source={{uri: `${this.state.img}`}}
             style={{width: 50, height: 50, borderRadius: 5}}
           />
           <Text style={{marginLeft: '10%', fontSize: 18}}>

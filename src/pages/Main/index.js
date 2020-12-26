@@ -188,13 +188,13 @@ const FoodListRec = (props) => {
       <Text style={{textAlign: 'center', margin: 20}}>
         Our Recommendation for: {props.judul}
       </Text>
-      <Recommend />
+      <Recommend name = 'buryam'/>
       <Text style={{textAlign: 'center', margin: 20}}>Alternatives</Text>
       <ScrollView alwaysBounceVertical="true">
-        <Recommend />
-        <Recommend />
-        <Recommend />
-        <Recommend />
+        <Recommend name = 'nasgor'/>
+        <Recommend name = 'pancake'/>
+        <Recommend name = 'pizza'/>
+        <Recommend name = 'spaghetti'/>
       </ScrollView>
     </View>
   );

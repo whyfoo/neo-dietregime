@@ -8,24 +8,58 @@ import {
   TouchableOpacity,
   Image,
   ScrollView,
-  KeyboardAvoidingView
+  KeyboardAvoidingView,
+  Alert
 } from 'react-native';
 import lines from '../../assets/icons/threeLine.png';
 import logo from '../../assets/icons/logo.png';
+import firestore from '@react-native-firebase/firestore';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import Recommend from '../../components/Recommend';
 
 const Tab = createMaterialTopTabNavigator();
+let listDocumentDummy = [];
 
 class Search extends Component {
   state = {
     input: '',
+    listDocument: [],
   };
+
+  async componentDidMount(){
+    // await firestore()
+    // .collection('food')
+    // .get()
+    // .then(querySnapshot => {
+    //   const dokum = [];
+    //   //console.log('----------------------------------');
+    //   querySnapshot.forEach(docs => {
+    //     dokum.push(
+    //       docs.id
+    //     );
+    //   })
+    //   this.setState({listDocument: dokum});
+    //   //console.log(this.state.listDocument);
+    // });
+    await firestore()
+    .collection('food')
+    .get()
+    .then(querySnapshot => {
+      const test = [];
+      //console.log('----------------------------------');
+      querySnapshot.forEach(docs => {
+        test.push(
+          docs.id
+        );
+      })
+      listDocumentDummy = test;
+      console.log(listDocumentDummy);
+    });
+  }
 
   render() {
     return (
       <KeyboardAvoidingView behavior='height' style={{flex: 1, backgroundColor: 'white'}}>
-
         <View
           style={{
             flex: 1,
@@ -62,18 +96,99 @@ class Search extends Component {
 
 export default Search;
 
-const Result = () => {
-  return (
-    <ScrollView>
-      <Recommend style={{marginVertical: 15}} />
-      <Recommend style={{marginVertical: 15}} />
-      <Recommend style={{marginVertical: 15}} />
-      <Recommend style={{marginVertical: 15}} />
-      <Recommend style={{marginVertical: 15}} />
-      <Recommend style={{marginVertical: 15}} />
-    </ScrollView>
-  );
-};
+// const Result = () => {
+//   async function test(){await firestore()
+//     .collection('food')
+//     .get()
+//     .then(querySnapshot => {
+//       const test = [];
+//       //console.log('----------------------------------');
+//       querySnapshot.forEach(docs => {
+//         test.push(
+//           docs.id
+//         );
+//       })
+//       listDocumentDummy = test;
+//       //console.log(listDocumentDummy);
+//     });
+//   }
+//   test();
+//     return (
+//       <ScrollView>
+//         {/* <Recommend style={{marginVertical: 15}} name = "nasgor"/>
+//         <Recommend style={{marginVertical: 15}} name = "nasgor"/>
+//         <Recommend style={{marginVertical: 15}} name = "nasgor"/>
+//         <Recommend style={{marginVertical: 15}} name = "nasgor"/>
+//         <Recommend style={{marginVertical: 15}} name = "nasgor"/>
+//         <Recommend style={{marginVertical: 15}} name = "nasgor"/> */}
+//          {listDocumentDummy.map((property, key) => {
+//             //console.log('INI PRINT PROPERTY');
+//             console.log(property);
+//             return (
+//               <Recommend style={{marginVertical: 15}} name = {property} key = {key}/>
+//             );
+//         })}
+//       </ScrollView>
+//     );
+// }
+
+class Result extends Component {
+  // async componentDidMount(){await firestore()
+  //   .collection('food')
+  //   .get()
+  //   .then(querySnapshot => {
+  //     const test = [];
+  //     //console.log('----------------------------------');
+  //     querySnapshot.forEach(docs => {
+  //       test.push(
+  //         docs.id
+  //       );
+  //     })
+  //     listDocumentDummy = test;
+  //     //console.log(listDocumentDummy);
+  //   });
+  // }
+  render(){
+    var loop =[];
+
+    for(let i=0; i<=28; i++){
+      loop.push(
+        <Recommend style={{marginVertical: 15}} name = 'nasgor' key={i}/>
+      );
+    }
+    return (
+      <ScrollView>
+        {loop}
+         
+      </ScrollView>
+    );
+  }
+}
+
+// const GetAll = () => {
+//   async function test(){await firestore()
+//     .collection('food')
+//     .get()
+//     .then(querySnapshot => {
+//       const test = [];
+//       console.log('----------------------------------');
+//       querySnapshot.forEach(docs => {
+//         test.push(
+//           docs.id
+//         );
+//       })
+//       listDocumentDummy = test;
+//       console.log(listDocumentDummy);
+//     });
+//   }
+//   test();
+//   for(let i = 0; i <= 28; i++){
+//     return(
+//       <Recommend style={{marginVertical: 15}} name = {listDocumentDummy[i]} />
+//     );
+//   }
+// }
+
 
 const styles = StyleSheet.create({
   inputBox: {
