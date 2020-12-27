@@ -26,6 +26,7 @@ const App = () => {
             height: win.height/9,
             backgroundColor: '#EDEDED'
           }}}/> 
+        <Stack.Screen name="Header" component={Header} options={{headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

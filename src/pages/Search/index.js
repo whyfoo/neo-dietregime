@@ -16,9 +16,11 @@ import logo from '../../assets/icons/logo.png';
 import firestore from '@react-native-firebase/firestore';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import Recommend from '../../components/Recommend';
+import RecommendAlt from '../../components/RecommendAlt';
 
 const Tab = createMaterialTopTabNavigator();
 let listDocumentDummy = [];
+let listManual= ['applepie', 'ayambakar', 'ayamgoreng', 'buburkacangijo', 'burger', 'buryam', 'fishnchip', 'gadogado', 'greeksalad', 'igabakar'];
 
 class Search extends Component {
   state = {
@@ -53,7 +55,7 @@ class Search extends Component {
         );
       })
       listDocumentDummy = test;
-      console.log(listDocumentDummy);
+      // console.log(listDocumentDummy);
     });
   }
 
@@ -149,12 +151,12 @@ class Result extends Component {
   //   });
   // }
   render(){
-    var loop =[];
+    let loop = [];
 
-    for(let i=0; i<=28; i++){
+    for(let i=0; i<listManual.length; i++){
       loop.push(
-        <Recommend style={{marginVertical: 15}} name = 'nasgor' key={i}/>
-      );
+        <RecommendAlt name ={listManual[i]} key={i}/>
+     );
     }
     return (
       <ScrollView>

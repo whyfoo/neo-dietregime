@@ -1,40 +1,61 @@
-import React from 'react'
-import { StyleSheet, Text, View, Image,TouchableOpacity } from 'react-native'
+import React, {useState, useEffect, Component} from 'react';
+import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
+import firestore from '@react-native-firebase/firestore';
 import moon from '../../assets/img/moon.jpg';
 import check from '../../assets/icons/checklist.png';
 
-const RecommendAlt = () => {
+class RecommendAlt extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {data: [], nama: '', cal: '', img: null};
+  }
+
+  async componentDidMount() {
+    const valueA = await firestore().collection('food').doc(this.props.name).get();
+    this.setState({data: valueA});
+    this.setState({nama: this.state.data._data.name});
+    this.setState({cal: this.state.data._data.cal});
+    this.setState({img: `${this.state.data._data.img}`});
+  }
+
+  render() {
     return (
-        <View style={{
-            backgroundColor: 'lightgray',
-            width: '45%',
-            height: '25%',
-            paddingHorizontal: 5,
-            flexDirection: "row",
-            justifyContent: "space-between",
-            alignItems: "center",
-            borderWidth: 1,
-            borderRadius: 5,
-            borderColor: 'teal',
-            }}>
-
-            <View style={{alignItems: "center"}}>
-                <Image source={moon} style={{width:40, height:50, borderRadius: 5}} />
-            </View>
-
-            <View>
-                <Text style={{marginLeft: '5%', fontSize: 18}}>Fried Moon</Text>
-                <Text style={{marginLeft: '5%', fontSize: 14}}>500 cal</Text>
-            </View>
-
-            <TouchableOpacity>
-                <Image source={check} style={{width:35, height:35, borderRadius: 5}}/>
-            </TouchableOpacity>
-
+      <View style={styles.container}>
+        <View style={{flexDirection: 'row', alignItems: 'center'}}>
+          <Image
+            source={{uri: `${this.state.img}`}}
+            style={{width: 50, height: 50, borderRadius: 5}}
+          />
+          <Text style={{marginLeft: '10%', fontSize: 18}}>
+            {this.state.nama}
+          </Text>
+          <Text style={{marginLeft: '8%', fontSize: 14}}>
+            {this.state.cal} cal
+          </Text>
         </View>
-    )
+        <TouchableOpacity>
+          <Image
+            source={check}
+            style={{width: 40, height: 40, borderRadius: 5}}
+          />
+        </TouchableOpacity>
+      </View>
+    );
+  }
 }
 
 export default RecommendAlt;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: 'lightgray',
+    width: '100%',
+    height: 70,
+    paddingHorizontal: 10,
+    marginBottom: 5,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    borderWidth: 0.5,
+  },
+});

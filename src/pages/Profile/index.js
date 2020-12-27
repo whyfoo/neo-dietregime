@@ -21,7 +21,6 @@ import { DrawerItem } from '@react-navigation/drawer';
 const win = Dimensions.get('window');
 const dietName = '50 KG hayo bisa';
 const name = 'Haidar Hanif';
-const currentUID = auth().currentUser.uid;
 
 class Profile extends Component {
   constructor(props) {
@@ -30,6 +29,7 @@ class Profile extends Component {
   }
 
   async componentDidMount() {
+    const currentUID = auth().currentUser.uid;
     const valueA = await firestore().collection('userdata').doc(`${currentUID}`).get(); 
     this.setState({data: valueA});
     this.setState({nama: this.state.data._data.nama});
