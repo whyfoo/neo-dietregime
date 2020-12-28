@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
   Text,
@@ -13,6 +13,8 @@ import {
   BackHandler,
   ToastAndroid
 } from 'react-native';
+import firestore from '@react-native-firebase/firestore';
+import auth from '@react-native-firebase/auth';
 import {startClock} from 'react-native-reanimated';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import lines from '../../assets/icons/threeLine.png';
@@ -24,34 +26,69 @@ import Header from '../../header';
 import Recommend from '../../components/Recommend';
 import RecommendAlt from '../../components/RecommendAlt';
 import gear from '../../assets/icons/setting.png';
+import { CurrentRenderContext } from '@react-navigation/native';
+
 
 const Main = ({navigation}) => {
-
   const win = Dimensions.get('window');
-  const [isHome, setHome] = useState(true);
-  const [isSearch, setSearch] = useState(false);
-  const [isProfile, setProfile] = useState(false);
   const Tab = createMaterialTopTabNavigator();
-  const changeTab = (param) => {
-    if (param == 'home') {
-      setHome(true);
-      setSearch(false);
-      setProfile(false);
-    } else if (param == 'search') {
-      setHome(false);
-      setSearch(true);
-      setProfile(false);
-    } else if (param == 'profile') {
-      setHome(false);
-      setSearch(false);
-      setProfile(true);
-    } else {
-      setHome(true);
-      setSearch(false);
-      setProfile(false);
-    }
-  };
+  const [weight, setWeight] = useState();
+  const [height, setHeight] = useState();
+  const [age, setAge] = useState();
+  const [target, setTarget] = useState();
+  const [gender, setGender] = useState();
+  const [day, setDay] = useState();
 
+  const [bmr, setBmr] = useState();
+  const [bmrTarget, setBmrTarget] = useState();
+
+  const actRate = 1.55;
+
+  const [currCall, setCurrCal] = useState();
+  const [targCall, setTargCal] = useState();
+
+  const [calSelisih, setCalSelisih] = useState();
+  const [calorieTarget, setCalTarget] = useState();
+  
+  
+  const currentUID = auth().currentUser.uid;
+
+  const ubahUser = async () => {
+    const valueA = await firestore().
+                    collection('userdata').
+                    doc(`${currentUID}`).
+                    get(); 
+    setWeight(valueA._data.weight);
+    setHeight(valueA._data.height);
+    setAge(valueA._data.age);
+    setTarget(valueA._data.target);
+    setGender(valueA._data.gender);
+    setDay(valueA._data.day);
+    console.log('ubahUser function berjalan');
+
+    if(gender == 'm'){
+      setBmr(66 + (13.7 * weight) + (5 * height) - (6.8 * age));
+      setBmrTarget(66 + (13.7 * target) + (5 * height) - (6.8 * age))
+    } else {
+      setBmr(655 + (9.6 * weight) + (1.8 * height) - (4.7 * age));
+      setBmrTarget(655 + (9.6 * target) + (1.8 * height) - (4.7 * age));
+    }
+    setCurrCal(bmr * actRate);
+    setTargCal(bmrTarget * actRate);
+
+    setCalSelisih(currCall - targCall);
+    setCalTarget((currCall - (calSelisih/day)).toFixed(2));
+
+    
+  }
+
+  // const calculate = () => {
+  //   //ubahUser();
+  //   // setBmr(66 + (13.7 * weight) + (5 * height) - (6.8 * age));
+  //   setBmr(22);
+  // }
+  
+  ubahUser();
 
   return (
 
@@ -60,57 +97,6 @@ const Main = ({navigation}) => {
         flex: 1,
         backgroundColor: 'white',
       }}>
-      {/* Header Section Begin-------------------------------------*/}
-      {/* <View
-        style={{
-          flex: 1.5,
-          flexDirection: 'row',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          backgroundColor: '#EDEDED',
-          paddingHorizontal: 15,
-        }}>
-        <View
-          style={{
-            height: '60%',
-            width: '15%',
-            justifyContent: 'center',
-            // borderWidth: 2,
-            // borderColor: 'gray',
-            // borderRadius: 10
-          }}>
-          <TouchableOpacity>
-            <Image
-              source={lines}
-              resizeMode="center"
-              style={{
-                width: '80%',
-                height: '80%',
-                marginLeft: 5,
-              }}
-            />
-          </TouchableOpacity>
-        </View>
-
-        <View
-          style={{
-            height: '80%',
-            width: '20%',
-            left: '50%',
-            position: 'absolute',
-          }}>
-          <Image
-            source={logo}
-            resizeMode="center"
-            style={{
-              height: '100%',
-              width: '100%',
-            }}
-          />
-        </View>
-      </View> */}
-      {/* Header Section End----------------------------------------------*/}
-
       {/* Main Section Begin----------------------------------------------*/}
 
       <View
@@ -142,17 +128,17 @@ const Main = ({navigation}) => {
             paddingVertical: 30,
             textAlign: 'center',
           }}>
-          <Text style={{}}>1566</Text>
-          <Text style={{}}>150-169g</Text>
-          <Text style={{}}>70-188g</Text>
-          <Text style={{}}>42-69g</Text>
+          <Text style={{}}>{calorieTarget}</Text>
+          <Text style={{}}>{weight}</Text>
+          <Text style={{}}>{target}</Text>
+          <Text style={{}}>{day}</Text>
         </View>
 
         <View style={{flex: 1, paddingVertical: 30, textAlign: 'center'}}>
           <Text style={{}}>Calorie target</Text>
-          <Text style={{}}>Carbs</Text>
-          <Text style={{}}>Protein</Text>
-          <Text style={{}}>Fat</Text>
+          <Text style={{}}>Current Weight</Text>
+          <Text style={{}}>Target Weight</Text>
+          <Text style={{}}>Days to go</Text>
         </View>
       </View>
 
@@ -175,12 +161,12 @@ const Main = ({navigation}) => {
           />
         </Tab.Navigator>
       </View>
-      
-      {/*Main Section End ---------------------------------------------------*/}
   </View>
     
   );
 };
+
+
 
 const FoodListRec = (props) => {
   return (
