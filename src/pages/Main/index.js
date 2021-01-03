@@ -64,7 +64,6 @@ const Main = ({navigation}) => {
     setTarget(valueA._data.target);
     setGender(valueA._data.gender);
     setDay(valueA._data.day);
-    console.log('ubahUser function berjalan');
 
     if(gender == 'm'){
       setBmr(66 + (13.7 * weight) + (5 * height) - (6.8 * age));

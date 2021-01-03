@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import {Text, View, Image} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -9,6 +9,7 @@ import Search from '../Search';
 import Magnify from '../../assets/icons/magnify.png';
 import Home from '../../assets/icons/home.png';
 import Head from '../../assets/icons/profile.png';
+import ProfileStack from '../ProfileStack';
 
 function HomeScreen() {
   return (
