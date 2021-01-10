@@ -6,6 +6,7 @@ import Main from './pages/Main';
 import HomePages from './pages/HomePages';
 import Profile from './pages/Profile';
 import Register from './pages/Register';
+import RegisterFill from './pages/RegisterFill';
 import Header from './header';
 
 import {NavigationContainer} from '@react-navigation/native';
@@ -21,6 +22,7 @@ const App = () => {
         <Stack.Screen name="Begin" component={Begin} options={{headerShown: false}}/>
         <Stack.Screen name="Login" component={Login} options={{headerShown: false}}/>
         <Stack.Screen name="Register" component={Register} options={{headerShown: false}}/>
+        <Stack.Screen name="RegisterFill" component={RegisterFill} options={{headerShown: false}}/>
         <Stack.Screen name="Main" component={HomePages} options={{headerTitle: props => <Header />,
           headerStyle: {
             height: win.height/9,

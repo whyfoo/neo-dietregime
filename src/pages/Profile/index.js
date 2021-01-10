@@ -28,7 +28,7 @@ class Profile extends Component {
     super(props);
     this.state = {
       data: [],
-      nama: '',
+      name: '',
       weight: null,
       height: null,
       age: null,
@@ -52,7 +52,7 @@ class Profile extends Component {
     const currentUID = auth().currentUser.uid;
     const valueA = await firestore().collection('userdata').doc(`${currentUID}`).get(); 
     this.setState({data: valueA});
-    this.setState({nama: this.state.data._data.nama});
+    this.setState({nama: this.state.data._data.name});
     this.setState({weight: this.state.data._data.weight});
     this.setState({height: this.state.data._data.height});
     this.setState({age: this.state.data._data.age});

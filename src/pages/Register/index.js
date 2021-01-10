@@ -19,7 +19,6 @@ export default class Register extends Component {
   constructor() {
     super();
     this.state = {
-      displayName: '',
       email: '',
       password: '',
       isLoading: false,
@@ -33,6 +32,7 @@ export default class Register extends Component {
   };
 
   registerUser = () => {
+    var errorCode = '';
     if (this.state.email === '' && this.state.password === '') {
       Alert.alert('Enter details to signup!');
     } else {
@@ -43,23 +43,35 @@ export default class Register extends Component {
         .createUserWithEmailAndPassword(this.state.email, this.state.password)
         .then(() => {
           console.log('User account created & signed in!');
+          this.setState({
+            isLoading: false,
+          });
+          Alert.alert('Registration Success!', 'Press OK to Continue',[
+            { text: "OK", onPress: () => {
+              auth()
+                .signInWithEmailAndPassword(this.state.email, this.state.password)
+                .then((user) => {
+                  this.props.navigation.navigate('RegisterFill');
+                })
+                .catch((error) => {
+                  alert(`${error}`);
+                });
+              } 
+            }
+          ],
+          { cancelable: false }
+        );
         })
         .catch(error => {
-          if (error.code === 'auth/email-already-in-use') {
-            console.log('That email address is already in use!');
-          }
-
-          if (error.code === 'auth/invalid-email') {
-            console.log('That email address is invalid!');
-          }
-
-        console.error(error);
+          this.setState({
+              isLoading: false,
+          });
+          Alert.alert('Registration Failed!', `Error: ${error.code}`,[
+            { text: "OK", onPress: () => this.props.navigation.navigate('Register') }
+            ],
+            { cancelable: false }
+          );
         });
-      Alert.alert('Registrasi Berhasil!', 'Silahkan Login',[
-        { text: "OK", onPress: () => this.props.navigation.navigate('Login') }
-      ],
-      { cancelable: false }
-    );
     }
   };
 
@@ -82,12 +94,6 @@ export default class Register extends Component {
           Welcome, new user!
         </Text>
 
-        <TextInput
-          style={styles.inputStyle}
-          placeholder="Name"
-          value={this.state.displayName}
-          onChangeText={(val) => this.updateInputVal(val, 'displayName')}
-        />
         <TextInput
           style={styles.inputStyle}
           placeholder="Email"

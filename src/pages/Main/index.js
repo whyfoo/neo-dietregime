@@ -185,20 +185,5 @@ const FoodListRec = (props) => {
   );
 };
 
-const styles = StyleSheet.create({
-  footerButton: {
-    flex: 1,
-    height: '100%',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  footerPressed: {
-    flex: 1,
-    height: '100%',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#C4C4C4',
-  },
-});
 
 export default Main;
