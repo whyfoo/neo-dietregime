@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, Component} from 'react';
 import {
   StyleSheet,
   Text,
@@ -11,7 +11,8 @@ import {
   FlatList,
   KeyboardAvoidingView,
   BackHandler,
-  ToastAndroid
+  ToastAndroid,
+  ActivityIndicator
 } from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 import auth from '@react-native-firebase/auth';
@@ -49,7 +50,6 @@ const Main = ({navigation}) => {
 
   const [calSelisih, setCalSelisih] = useState();
   const [calorieTarget, setCalTarget] = useState();
-  
   
   const currentUID = auth().currentUser.uid;
 
@@ -167,23 +167,90 @@ const Main = ({navigation}) => {
 
 
 
-const FoodListRec = (props) => {
-  return (
-    <View>
+// const FoodListReo = (props) => {
+//   const [listRekomen, setListRekomen] = useState([]);
+  
+//   const mengambil = async () => {
+//     const food = await firestore().
+//                     collection('food').
+//                     where('cat', '==', `${props.judul}`).
+//                     get().
+//                     then((querySnapshot) => {
+//                       var test = [];
+//                       querySnapshot.forEach(docs => {
+//                         test.push(
+//                           docs.id
+//                         );
+//                       })
+//                       setListRekomen(test);
+//                       console.log(listRekomen, 'await');
+//                     });
+//   }
+
+//   // mengambil();
+//   console.log(listRekomen);
+
+//   return (
+//     <View>
+//       <Text style={{textAlign: 'center', margin: 20}}>
+//         Our Recommendation for: {props.judul}
+//       </Text>
+//       <Recommend name = 'buryam'/>
+//       <Text style={{textAlign: 'center', margin: 20}}>Alternatives</Text>
+//       <ScrollView alwaysBounceVertical="true">
+//         <Recommend name = 'nasgor'/>
+//         <Recommend name = 'pancake'/>
+//         <Recommend name = 'pizza'/>
+//         <Recommend name = 'spaghetti'/>
+//       </ScrollView>
+//     </View>
+//   );
+// };
+
+class FoodListRec extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      listRekomen: [],
+    };
+  }
+
+  async componentDidMount(){
+    const valueA = await firestore().
+                    collection('food').
+                    where('cat', '==', `${this.props.judul}`).
+                    get().
+                    then((querySnapshot) => {
+                      var test = [];
+                      querySnapshot.forEach(docs => {
+                        test.push(
+                          docs.id
+                        );
+                      })
+                      this.setState({listRekomen: test});
+                    });
+    
+  }
+  render(){
+    console.log(this.state.listRekomen);
+    return(
+      <View>
       <Text style={{textAlign: 'center', margin: 20}}>
-        Our Recommendation for: {props.judul}
+        Our Recommendation for: {this.props.judul}
       </Text>
-      <Recommend name = 'buryam'/>
+      <Recommend name = {`${this.state.listRekomen[0]}`}/>
       <Text style={{textAlign: 'center', margin: 20}}>Alternatives</Text>
       <ScrollView alwaysBounceVertical="true">
-        <Recommend name = 'nasgor'/>
-        <Recommend name = 'pancake'/>
-        <Recommend name = 'pizza'/>
-        <Recommend name = 'spaghetti'/>
+        <RecommendAlt name = {`${this.state.listRekomen[1]}`}/>
+        <RecommendAlt name = {`${this.state.listRekomen[2]}`}/>
+        <RecommendAlt name = {`${this.state.listRekomen[3]}`}/>
+        <RecommendAlt name = {`${this.state.listRekomen[4]}`}/>
       </ScrollView>
     </View>
-  );
-};
+    );
+  }
+}
+
 
 
 export default Main;

@@ -7,7 +7,11 @@ import check from '../../assets/icons/checklist.png';
 class RecommendAlt extends Component {
   constructor(props) {
     super(props);
-    this.state = {data: [], nama: '', cal: '', img: null};
+    this.state = {
+      data: [], 
+      nama: 'Loading', 
+      cal: '?', 
+      img: 'https://cdn4.iconfinder.com/data/icons/ui-beast-4/32/Ui-12-512.png'};
   }
 
   async componentDidMount() {
@@ -20,26 +24,29 @@ class RecommendAlt extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <View style={{flexDirection: 'row', alignItems: 'center'}}>
-          <Image
-            source={{uri: `${this.state.img}`}}
-            style={{width: 50, height: 50, borderRadius: 5}}
-          />
-          <Text style={{marginLeft: '10%', fontSize: 18}}>
-            {this.state.nama}
-          </Text>
-          <Text style={{marginLeft: '8%', fontSize: 14}}>
-            {this.state.cal} cal
-          </Text>
-        </View>
-        <TouchableOpacity>
-          <Image
-            source={check}
-            style={{width: 40, height: 40, borderRadius: 5}}
-          />
-        </TouchableOpacity>
-      </View>
+        
+            this.state.data != null ? 
+            <View style={styles.container}>
+              <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                <Image
+                  source={{uri: `${this.state.img}`}}
+                  style={{width: 50, height: 50, borderRadius: 5}}
+                />
+                <Text style={{marginLeft: '10%', fontSize: 18}}>
+                  {this.state.nama}
+                </Text>
+                <Text style={{marginLeft: '8%', fontSize: 14}}>
+                  {this.state.cal} cal
+                </Text>
+              </View>
+              <TouchableOpacity>
+                <Image
+                  source={check}
+                  style={{width: 40, height: 40, borderRadius: 5}}
+                />
+              </TouchableOpacity>
+            </View> : null
+          
     );
   }
 }
